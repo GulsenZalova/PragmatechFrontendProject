@@ -2,16 +2,35 @@ body{
  font-family: 'Roboto Serif', sans-serif;
  font-size: 15px;
 }
-
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.justify_around{
+    justify-content: space-around;
+}
 :root{
 --primary: #5e2572;
+--purple: #6a008a;
 --secondary: #d9dbdc;
+--gray-lightest: #e6e9ed;
 --success: #00c689;
+--teal: #58d8a3;
 --danger: #fc7242;
+--orange: #f2a654;
 --warning: #ffc100;
+--yellow: #f6e84e;
+--blue: #5E50F9;
 --info: #4d13d1;
+--gray-lighter: #e8eff4;
 --light: #f8f9fa;
---dark:#0f1531;
+--dark: #4f4a60;
+--darker:#0f1531;
 --white: #ffffff;
 --gray: #6c757d;
 --black: #000000;
@@ -21,14 +40,8 @@ body{
 --space-4x: 20px;
 --space-5x: 25px;
 --space-6x: 30px;
---space-10x: 0px;
+--space-10x: 50px;
 --space-20x: 100px;
-}
-
-.btn{
-    display: inline-block !important;
-    margin: var(--space-3x) var(--space-x);
-
 }
 .btn_black{
     color: var(--black);
@@ -37,16 +50,52 @@ body{
     color: var(--white);
 }
 
+.text_color_p{
+    color: var(--primary);
+    border: 5px solid red ;
+}
+.text_color_s{
+ color: var(--secondary);
+}
+.text_color_su{
+    color: var(--success);
+}
+.text_color_d{
+    color: var(--danger);
+}
+.text_color_w{
+    color: var(--warning);
+}
+.text_color_i{
+    color: var(--info);
+}
+.text_color_l{
+    color: var(--light);
+}
+.text_color_d{
+    color: var(--dark);
+}
+
+.btn{
+    display: inline-block !important;
+    margin: var(--space-3x) var(--space-x);
+    cursor: pointer;
+    border: none;
+
+}
+/* ortaq paddinglər */
 .btn_padding_small{
-    padding: var(--space-2x)  var(--space-3x) !important;
+    padding: var(--space-3x)  var(--space-4x) !important;
 }
 .btn_padding_medium{
-    padding: var(--space-2x) var(--space-4x) !important;
+    padding: var(--space-4x) var(--space-5x) !important;
 }
 .btn_padding_large{
     padding: var(--space-3x) var(--space-6x) !important;
 }
+/* ortaq paddinglər */
 
+/* ortaq border-radiuslar */
 .btn_radius_small{
     border-radius: var(--space-x);
 }
@@ -56,24 +105,26 @@ body{
 .btn_radius_large{
     border-radius: var(--space-20x);
 }
+/* ortaq border-radiuslar */
 
+/* ortaq rənglər */
 .btn_primary{
-    background-color: var(--primary);
+    background-color: var(--purple);
 }
 .btn_secondary{
-   background-color: var(--secondary);
+   background-color: var(--gray-lightest);
 }
 .btn_success{
-    background-color: var(--success);
+    background-color: var(--teal);
 }
 .btn_danger{
-    background-color: var(--danger);
+    background-color: var(--orange);
 }
 .btn_warning{
-    background-color: var(--warning);
+    background-color: var(--yellow);
 }
 .btn_info{
-     background-color: var(--info);
+     background-color: var(--blue);
 }
 .btn_light{
     background-color: var(--light);
@@ -81,3 +132,31 @@ body{
 .btn_dark {
     background-color: var(--dark);
 }
+/* ortaq rənglər */
+
+/* ortaq hoverlər */
+.btn_primary:hover{
+    background-color: var(--primary);
+}
+.btn_secondary:hover{
+    background-color: var(--secondary);
+}
+.btn_success:hover{
+    background-color: var(--success);
+}
+.btn_danger:hover{
+    background-color: var(--danger);
+}
+.btn_warning:hover{
+    background-color: var(--warning);
+}
+.btn_info:hover{
+    background-color: var(--info);
+}
+.btn_light:hover{
+    background-color: var(--gray-lighter);
+}
+.btn_dark:hover{
+    background-color: var(--darker);
+}
+/* ortaq hoverlər */
