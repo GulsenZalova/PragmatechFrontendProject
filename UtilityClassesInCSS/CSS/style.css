@@ -1,0 +1,17 @@
+.button {
+
+}
+.button h5{
+ margin: var(--space-2x) ;
+ font-size: 1em;
+}
+.button p {
+margin: var(--space-3x);
+font-size: 1em;
+color: var(--gray);
+}
+.button p span{
+color: red;
+}
+
+
