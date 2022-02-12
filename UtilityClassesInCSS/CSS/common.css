@@ -80,8 +80,6 @@ body{
     display: inline-block !important;
     margin: var(--space-3x) var(--space-x);
     cursor: pointer;
-    border: none;
-
 }
 /* ortaq paddinglər */
 .btn_padding_small{
@@ -135,6 +133,7 @@ body{
 /* ortaq rənglər */
 
 /* ortaq hoverlər */
+
 .btn_primary:hover{
     background-color: var(--primary);
 }
