@@ -22,6 +22,10 @@ body{
 .justify_around{
     justify-content: space-around;
 }
+.justify_between{
+    justify-content: space-between;
+}
+
 :root{
 --primary: #5e2572;
 --purple: #6a008a;
@@ -139,7 +143,7 @@ body{
     padding: var(--space-4x) var(--space-5x) !important;
 }
 .btn_padding_large{
-    padding: var(--space-3x) var(--space-6x) !important;
+    padding: var(--space-4x) var(--space-20x) !important;
 }
 /* ortaq paddinglər */
 
