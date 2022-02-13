@@ -86,11 +86,11 @@ body{
     color: var(--white);
     background-color: var(--success);
 }
-.text_color_d{
+.text_color_danger{
     color: var(--danger);
     border: 1px solid var(--danger) ;
 }
-.text_color_d:hover{
+.text_color_danger:hover{
     color: var(--white);
     background-color: var(--danger);
 }
