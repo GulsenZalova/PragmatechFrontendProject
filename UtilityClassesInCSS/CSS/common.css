@@ -31,7 +31,9 @@ body{
 .justify_center{
     justify-content: center;
 }
-
+.space{
+    margin: 0px var(--space-2x);
+}
 :root{
 --primary: #5e2572;
 --purple: #6a008a;
