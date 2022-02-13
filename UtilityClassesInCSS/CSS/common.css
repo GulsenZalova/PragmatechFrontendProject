@@ -61,7 +61,37 @@ body{
 .btn_white{
     color: var(--white);
 }
+.icon{
+    font-size: 1em;
+    font-weight: 100;
+    border: 1px solid var(--secondary);
+}
+.icon:hover{
+    background-color: var(--secondary);
+}
 
+.icon_primary{
+    color: var(--primary);
+}
+.icon_dark{
+    color: var(--dark);
+}
+.icon_danger{
+   color: var(--danger);
+}
+.icon_info{
+    color: var(--info);
+}
+.icon_success{
+    color: var(--success);
+}
+.icon_light{
+    color: var(--secondary);
+}
+.icon_light:hover{
+    color: var(--dark);
+    background-color: var(--secondary);
+}
 .text_color_p{
     color: var(--primary);
     border: 1px solid var(--primary) ;
