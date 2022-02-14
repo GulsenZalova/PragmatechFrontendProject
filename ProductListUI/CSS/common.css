@@ -23,6 +23,10 @@ body{
 } 
 .style{
     padding: 10px;
+    height: 600px;
+}
+.style:hover{
+    box-shadow: 2px 2px 2px 2px var(--wc-secondary);
 }
 .distance{
     margin-top: 10px;
@@ -33,13 +37,10 @@ body{
 /* general properties */
 /* general color and size start */
 :root{
-    --woocommerce: #a46497;
-    --wc-primary: #a46497;
     --pink: #ebb5ac;
     --gray: #bfbfbf;
     --wc-secondary: #ebe9eb;
     --wc-primary-text: white;
-    --wc-secondary: #ebe9eb;
     --wc-secondary-text: #515151;
     --wc-highligh-text: white;
     --wc-content-bg: #fff;
@@ -95,7 +96,6 @@ body{
     font-size: 0.8em; 
 }
 .like{
-    font-size: var(--space-4x);
     color: var(--wc-content-bg);
     border-radius: 50%;
     padding: 10px;
@@ -104,9 +104,10 @@ body{
     background-color: var(--pink);
 }
 .like_icon{
-    font-size: var(--space-4x);
+    font-size: var(--space-3x);
 }
 /* icon style start */
+/* position start */
 .location{
     position: relative;
 }
@@ -115,3 +116,4 @@ body{
     top: 21px;
     right: 21px;
 }
+/* position end */
