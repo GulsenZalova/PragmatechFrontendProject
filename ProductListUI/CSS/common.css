@@ -3,7 +3,6 @@ body{
     font-family:'Poppins', sans-serif;
     font-size: 15px;
 }
-
 .flex{
     display: flex;
 }
@@ -24,6 +23,9 @@ body{
 } 
 .style{
     padding: 10px;
+}
+.distance{
+    margin-top: 10px;
 }
 .border{
     border: none;
@@ -49,12 +51,12 @@ body{
     --space-4x: 20px;
     --space-5x: 25px;
     --space-6x: 30px;
-    /* --space-7x: 35px;
+    --space-7x: 35px;
     --space-8x: 40px;
     --space-9x: 45px;
     --space-10x: 50px;
     --space-11x: 55px;
-    --space-12x: 60px; */
+    --space-12x: 60px;
 }
 /* general color and size end */
 /* text sytle start */
@@ -83,11 +85,33 @@ body{
     color: var(--wc-content-bg);
 }
 /* button style end*/
+/* icon style start */
 .icon_primary{
     color: var(--pink);
-    font-size: 0.9em;  
+    font-size: 0.8em;  
 }
 .icon_white{
     color: var(--gray);
-    font-size: 0.9em; 
+    font-size: 0.8em; 
+}
+.like{
+    font-size: var(--space-4x);
+    color: var(--wc-content-bg);
+    border-radius: 50%;
+    padding: 10px;
+}
+.like:hover{
+    background-color: var(--pink);
+}
+.like_icon{
+    font-size: var(--space-4x);
+}
+/* icon style start */
+.location{
+    position: relative;
+}
+.stuation{
+    position: absolute;
+    top: 21px;
+    right: 21px;
 }
