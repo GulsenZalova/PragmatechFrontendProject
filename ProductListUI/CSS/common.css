@@ -21,24 +21,18 @@ body{
 .justify_center{
     justify-content: center;
 } 
-.style{
-    padding: 10px;
-    height: 600px;
-}
-.style:hover{
-    box-shadow: 2px 2px 2px 2px var(--wc-secondary);
+.border{
+    border: none;
 }
 .distance{
     margin-top: 10px;
-}
-.border{
-    border: none;
 }
 /* general properties */
 /* general color and size start */
 :root{
     --pink: #ebb5ac;
     --gray: #bfbfbf;
+    --orange:#f34723;
     --wc-secondary: #ebe9eb;
     --wc-primary-text: white;
     --wc-secondary-text: #515151;
@@ -87,13 +81,22 @@ body{
 }
 /* button style end*/
 /* icon style start */
-.icon_primary{
+.icon_pink{
     color: var(--pink);
     font-size: 0.8em;  
 }
-.icon_white{
+.icon_gray{
     color: var(--gray);
     font-size: 0.8em; 
+}
+/* icon style start */
+.location{
+    position: relative;
+}
+.stuation{
+    position: absolute;
+    top: var(--space-2x);
+    right: var(--space-3x);
 }
 .like{
     color: var(--wc-content-bg);
@@ -102,18 +105,16 @@ body{
 }
 .like:hover{
     background-color: var(--pink);
+    transition: all 0.2s ease-in-out;
 }
 .like_icon{
     font-size: var(--space-3x);
 }
-/* icon style start */
-/* position start */
-.location{
-    position: relative;
+.style{
+    padding: 10px;
+    height: 600px;
 }
-.stuation{
-    position: absolute;
-    top: 21px;
-    right: 21px;
+.style:hover{
+    box-shadow: 2px 2px 2px 2px var(--wc-secondary);
+    transition: all 0.2s ease-in-out;
 }
-/* position end */

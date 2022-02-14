@@ -4,3 +4,13 @@
     gap: var(--space-2x);
     margin: 50px ;
 }
+
+.discount{
+    position: absolute;
+    bottom: var(--space-4x);
+    right: var(--space-3x);
+    background-color: var(--orange);
+    padding: 0px var(--space-2x);
+    font-size: 13px;
+    color: var(--wc-content-bg);
+}
