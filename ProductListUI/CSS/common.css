@@ -22,6 +22,12 @@ body{
 .justify_center{
     justify-content: center;
 } 
+.style{
+    padding: 10px;
+}
+.border{
+    border: none;
+}
 /* general properties */
 /* general color and size start */
 :root{
@@ -53,12 +59,12 @@ body{
 /* general color and size end */
 /* text sytle start */
 .product-name{
-    color: var(--wc-subtext);
+    color: var(--black);
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 500;
 }
 .product-name:hover{
-    color: var(--wc-primary);
+    color: var(--pink);
 }
 .product_value{
     color:var(--wc-secondary-text);
