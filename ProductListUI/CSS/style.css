@@ -15,12 +15,26 @@
     color: var(--wc-content-bg);
 }
 
-.dropdown{
+/* .dropdown{
     opacity: 0;
     transition: 250ms all;
     visibility: hidden;
 }
-.container:hover .dropdown{
-  opacity: 1;
-  visibility: visible;
+.container:hover + .product_image_hover{
+    display: block;
 }
+.product_image_hover{
+    display: none;
+} */
+
+
+.product_info:hover button{
+    display: block;
+    background-color: var(--pink);
+    color: var(--black);
+
+}
+.product_info:hover ul{
+    display: block;
+}
+

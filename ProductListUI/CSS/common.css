@@ -76,8 +76,8 @@ body{
     padding: var(--space-2x) var(--space-4x);
 }
 .btn:hover{
-    background-color:var(--black);
-    color: var(--wc-content-bg);
+    background-color:var(--black) !important;
+    color: var(--wc-content-bg) !important;
 }
 /* button style end*/
 /* icon style start */
@@ -102,7 +102,10 @@ body{
 .like{
     color: var(--wc-content-bg);
     border-radius: 50%;
-    padding: 8px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: var(--wc-content-bg);
+    transition: 300ms all;
 }
 .like:hover{
     background-color: var(--pink);
@@ -110,6 +113,7 @@ body{
 }
 .like_icon{
     font-size: var(--space-3x);
+    color: var(--black);
 }
 .style{
     padding: 10px;
