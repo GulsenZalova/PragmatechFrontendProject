@@ -14,3 +14,13 @@
     font-size: 13px;
     color: var(--wc-content-bg);
 }
+
+.dropdown{
+    opacity: 0;
+    transition: 250ms all;
+    visibility: hidden;
+}
+.container:hover .dropdown{
+  opacity: 1;
+  visibility: visible;
+}

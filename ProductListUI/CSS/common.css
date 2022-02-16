@@ -55,12 +55,12 @@ body{
 }
 /* general color and size end */
 /* text sytle start */
-.product-name{
+.product_name{
     color: var(--black);
     font-size: 1em;
     font-weight: 500;
 }
-.product-name:hover{
+.product_name:hover{
     color: var(--pink);
 }
 .product_value{
@@ -98,10 +98,11 @@ body{
     top: var(--space-2x);
     right: var(--space-3x);
 }
+
 .like{
     color: var(--wc-content-bg);
     border-radius: 50%;
-    padding: 10px;
+    padding: 8px;
 }
 .like:hover{
     background-color: var(--pink);
@@ -113,8 +114,13 @@ body{
 .style{
     padding: 10px;
     height: 600px;
+    
 }
-.style:hover{
+.style:hover + li{
     box-shadow: 2px 2px 2px 2px var(--wc-secondary);
     transition: all 0.2s ease-in-out;
+}
+
+.hidden{
+display: none;
 }
