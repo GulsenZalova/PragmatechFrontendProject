@@ -74,6 +74,7 @@ body{
     background-color: var(--wc-content-bg);
     color: var(--wc-content-bg);
     padding: var(--space-2x) var(--space-4x);
+    transition: all 0.4ms ease;
 }
 .btn:hover{
     background-color:var(--black) !important;
@@ -105,7 +106,7 @@ body{
     margin-top: 5px;
     padding: 10px;
     background-color: var(--wc-content-bg);
-    transition: 300ms all;
+    transition: 100ms all;
 }
 .like:hover{
     background-color: var(--pink);
@@ -127,4 +128,10 @@ body{
 
 .hidden{
 display: none;
+}
+
+.image_stuation{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
 }

@@ -15,19 +15,6 @@
     color: var(--wc-content-bg);
 }
 
-/* .dropdown{
-    opacity: 0;
-    transition: 250ms all;
-    visibility: hidden;
-}
-.container:hover + .product_image_hover{
-    display: block;
-}
-.product_image_hover{
-    display: none;
-} */
-
-
 .product_info:hover button{
     display: block;
     background-color: var(--pink);
@@ -38,3 +25,6 @@
     display: block;
 }
 
+.product_info:hover .image_stuation{
+   opacity: 1;
+}
