@@ -1,7 +1,7 @@
 /*general properties */
 body{
     font-family:'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: var(--space-3x);
 }
 .flex{
     display: flex;
@@ -9,23 +9,18 @@ body{
 .column{
     flex-direction: column;
 }
-.row{
-    flex-direction: row;
-}
-.justify_around{
-    justify-content: space-around;
-}
 .justify_between{
     justify-content: space-between;
 }
-.justify_center{
-    justify-content: center;
-} 
-.border{
-    border: none;
-}
 .distance{
-    margin-top: 10px;
+    margin-top: var(--space-2x);
+}
+.style{
+    padding:var(--space-2x);
+    height: 600px;  
+}
+.hidden{
+display: none;
 }
 /* general properties */
 /* general color and size start */
@@ -75,6 +70,7 @@ body{
     color: var(--wc-content-bg);
     padding: var(--space-2x) var(--space-4x);
     transition: all 0.4ms ease;
+    font-size: var(--space-3x);
 }
 .btn:hover{
     background-color:var(--black) !important;
@@ -90,7 +86,24 @@ body{
     color: var(--gray);
     font-size: 0.8em; 
 }
+.like{
+    color: var(--wc-content-bg);
+    border-radius: 50%;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: var(--wc-content-bg);
+    transition: 300ms all;
+}
+.like:hover{
+    background-color: var(--pink);
+    transition: all 0.2s ease-in-out;
+}
+.like_icon{
+    font-size: var(--space-3x) ;
+    color: var(--black);
+}
 /* icon style start */
+/* position kodları */
 .location{
     position: relative;
 }
@@ -99,45 +112,31 @@ body{
     top: var(--space-2x);
     right: var(--space-3x);
 }
-
-.like{
-    color: var(--wc-content-bg);
-    border-radius: 50%;
-    margin-top: 5px;
-    padding: 10px;
-    background-color: var(--wc-content-bg);
-    transition: 100ms all;
-}
-.like:hover{
-    background-color: var(--pink);
-    transition: all 0.2s ease-in-out;
-}
-.like_icon{
-    font-size: var(--space-3x);
-    color: var(--black);
-}
-.style{
-    padding: 10px;
-    height: 600px;
-    
-}
-.style:hover + li{
-    box-shadow: 2px 2px 2px 2px var(--wc-secondary);
-    transition: all 0.2s ease-in-out;
-}
-
-.hidden{
-display: none;
-}
 .image_stuation{
     position: absolute;
     left: 0px;
     opacity: 0;
 }
+/* position kodları */
+/* ümumi div üzərinə gəldikdə alınan hoverlər */
 .product_info:hover ul{
     display: block;
 }
-
 .product_info:hover .image_stuation{
    opacity: 1;
 }
+.product_info:hover button{
+    display: block;
+    background-color: var(--pink);
+    color: var(--black);
+}
+.product_info:hover ul{
+    display: block;
+}
+.product_info:hover .image_stuation{
+   opacity: 1;
+}
+.product_info:hover{
+    box-shadow: 2px 2px 2px 2px var(--wc-secondary);
+}
+/* ümumi div üzərinə gəldikdə alınan hoverlər */

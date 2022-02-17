@@ -2,9 +2,8 @@
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-2x);
-    margin: 50px ;
+    margin:var(--space-10x) ;
 }
-
 .discount{
     position: absolute;
     bottom: var(--space-4x);
@@ -13,18 +12,4 @@
     padding: 0px var(--space-2x);
     font-size: 13px;
     color: var(--wc-content-bg);
-}
-
-.product_info:hover button{
-    display: block;
-    background-color: var(--pink);
-    color: var(--black);
-
-}
-.product_info:hover ul{
-    display: block;
-}
-
-.product_info:hover .image_stuation{
-   opacity: 1;
 }
