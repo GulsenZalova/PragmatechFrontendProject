@@ -129,9 +129,15 @@ body{
 .hidden{
 display: none;
 }
-
 .image_stuation{
     position: absolute;
     left: 0px;
     opacity: 0;
+}
+.product_info:hover ul{
+    display: block;
+}
+
+.product_info:hover .image_stuation{
+   opacity: 1;
 }
