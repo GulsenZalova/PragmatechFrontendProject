@@ -45,6 +45,7 @@
     - C#
     - PHP
     - Python
-    -Javascript(Node.js)
+    - Javascript(Node.js)
+    - Ruby
 
 
