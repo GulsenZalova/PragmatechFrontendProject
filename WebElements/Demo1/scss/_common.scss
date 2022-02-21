@@ -1,0 +1,76 @@
+body{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+#element{
+width: $main-width;
+height: $main-height;
+}
+.container{
+width:$main-width/5*4;
+height: $main-height;
+margin: $space-20x auto ;
+display: grid;
+text-align: center;
+grid-template-columns: repeat(3, 1fr);
+gap: $space-2x;
+}
+.element_items{
+position: relative;
+width: $main-width/5;
+height: $main-height/2+$space-4x;
+padding: $space-10x $space-8x;
+box-shadow: 1px 1px $space-2x lighten($secondary-color, 5%);
+}
+.element_items:hover i{
+color: white;
+border: 3px solid white;
+}
+.element_items:hover h1{
+color: white;
+}
+.element_items:hover p{
+color: white;
+}
+.element_items:hover button{
+background-color: white;
+color: $main-color;
+font-weight: 100;
+}
+.element_items i{
+padding: $space-6x;
+border: 3px solid $main-color;
+border-radius: 50%;
+font-size: $space-10x;
+color: $main-color;
+}
+.element_items h1{
+font-size: $space-6x;
+}
+.element_items p{
+font-size: $space-3x;
+color:$secondary-color;
+}
+.element_items button{
+width: $main-width/10;
+height: $main-height/12;
+background-color: $main-color;
+color: white;
+border: none;
+margin-top: $space-6x;
+}
+.element_items::after{
+content:'';
+position: absolute;
+z-index: -1;
+left: 0;
+bottom: 0;
+height: 0px;
+ width: 100%;
+background-color: $main-color;
+}
+.element_items:hover::after{
+height: 100%;
+ transition: all 0.4s linear;}
