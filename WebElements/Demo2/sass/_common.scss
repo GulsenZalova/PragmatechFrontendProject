@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#element{
+    width: 100%;
+    height: 100vh; 
+    background-color:$main-color ;  
+    border: 1px solid black;
+
+}
+.container{
+    width:$main-width;
+    height:$main-height;
+    margin:$space-16x auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:$space-2x;
+}
+.element-item{
+    transition: transform 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: $main-height;
+    width: $main-width/6;
+    margin: auto;
+    padding: $space-6x $space-6x;
+    text-align: center; 
+    justify-content: center;
+}
+.element-item i{
+    font-size: $space-10x;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: $space-7x;
+    color: white;
+}
+.element-item h1{
+    font-size: $space-5x;
+    font-weight: 100;
+    color: white;
+}
+.element-item p{
+    font-size: $space-3x;
+    font-weight: 100;
+    color: white;
+    line-height: $space-4x;
+
+}
+.element-item button{
+    text-align: center;
+    width: $main-width/8;
+    height: $main-height/8;
+    padding: $space-3x $space-7x;
+    margin: $space-6x $space-6x;
+    border: none;
+    color: lightgray;
+}
+.element-item:hover button{
+    background-color:$main-color;
+    color: white;
+}
+.element-item:hover{
+    transform: scale(0.9);
+    background-color: darken($main-color, 5%);
+}
