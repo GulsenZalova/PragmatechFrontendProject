@@ -13,19 +13,21 @@ body{
 }
 .container{
     width: 1200px;
-    height: 500px;
+    height: 400px;
     margin: 80px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 .element-item{
+    transition: transform 1s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: inherit;
-    width: 250px;
+    height: 400px;
+    width: 200px;
     margin: auto;
+    padding: 30px 30px;
     text-align: center; 
     justify-content: center;
 }
@@ -54,14 +56,14 @@ body{
     width: 150px;
     height: 50px;
     padding: 15px 35px;
+    margin: 30px 30px;
     border: none;
 }
 .element-item:hover button{
     background-color: #5b5bae;
     color: white;
 }
-
 .element-item:hover{
-    width: 240px;
-    background-color: darken( #5b5bae, 5%); 
+    transform: scale(0.9);
+    background-color: darken( #5b5bae, 5%);
 }
