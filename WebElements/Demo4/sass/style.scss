@@ -13,41 +13,70 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0px;
-    border: 1px solid red;
     margin: 100px auto;
 }
 .elements-item{
     width: 300px;
-    height: 200px;
+    height: 100px;
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    margin: 10px 0px;
 }
 .elements-items{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 300px;
     height: 200px;
-    padding: 50px 50px;
-    margin: 20px 20px;
-    border: 1px solid yellow;
+    padding: 30px 30px;
+    margin: 20px 50px;
+}
+.elements-items::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 0px;
+    height: 100%;
+    right: 0;
+    transition: all .4s linear;
+}
+.elements-items:hover::after{
+    width: 100%;
+    background-color: #e12573;
+}
+.elements-items:hover i{
+    color: white;
+}
+.elements-items:hover h1{
+    color: white;
+}
+.elements-items:hover p{
+    color: white;
 }
 .element-icon{
-    font-size: 50px;
+    font-size: 40px;
     margin: 30px 30px;
     color: #e12573;
-
 }
-.element-paragraph{
+.element-paragraph h1{
+    color:  #333;
+    font-size: 28px;
+    font-weight: 700;
+}
+.element-paragraph p{
+    color: #333;
     font-size: 15px;
 }
 .element-btn{
+    position: absolute;
     width: 140px;
     height: 50px;
     border-radius: 30px;
     border: none;
     color: white;
     background-color: #e12573;
-
+    left: 0;
+    bottom: 0;
+    margin-left: 40px;
 }
