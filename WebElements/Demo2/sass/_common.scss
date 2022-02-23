@@ -67,4 +67,5 @@ body{
 .element-item:hover{
     transform: scale(0.9);
     background-color: darken($main-color, 5%);
+    cursor: alias;
 }
