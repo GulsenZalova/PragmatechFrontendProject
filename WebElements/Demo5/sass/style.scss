@@ -1,3 +1,9 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #elements{
     width: 100%;
     height: 100vh;
@@ -9,30 +15,68 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    border: 1px solid red;
 }
 .elements-item{
+    position: relative;
     width: 300px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    padding: 40px 40px;
-    // border: 1px solid #71d1ff;
-    outline: 2px solid #033146 ;
+    padding: 30px 35px;
+    outline: 2px solid  #71d1ff;
     outline-offset: -10px;
-    box-shadow: 0 0 0 18px rgb(0 0 0 / 15%) inset;
+    background-color:#337ab7;
+    box-shadow: 0 0 0 18px #337ab7 inset; 
+    z-index: 1;
+
 }
+.elements-item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+    transition: all 0.3s ease; 
+    background-color:#20b7ff;
+    z-index: -1;
+}
+.elements-item:hover::after{
+    transform: scale(0);
+    z-index: 1;
+   cursor: pointer;
+}    
 .elements-item h1{
-    color: black;
+    font-size: 30px;
+    color: white;
 }
 .elements-item p{
-    color: black;
+    font-size: 15px;
+    color: white;
 }
 .elements-item i{
     font-size: 45px;
+    color: #71d1ff;
+    padding-top: 15px;
 }
 .elements-item button{
-    color: black;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-bottom: 15px;
+    background-color:#337ab7; 
+    color: white;
+    margin-left: 70px;
+}
+.elements-item:hover button{
+    background-color: #71d1ff;
+    color: #337ab7;
+}
+.elements-item:hover{
+    outline: 5px solid #71d1ff;
+    transition: all 0.9 linear;
 }
