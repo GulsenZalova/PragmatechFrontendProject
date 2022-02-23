@@ -44,6 +44,7 @@ body{
 .elements-items:hover::after{
     width: 100%;
     background-color:$main-color ;
+   cursor:alias;
 }
 .elements-items:hover i{
     color: white;
