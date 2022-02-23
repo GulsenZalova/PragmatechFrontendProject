@@ -7,8 +7,8 @@ body {
 }
 
 #element {
-  width: 1500px;
-  height: 600px;
+  width: 100%;
+  height: 100vh;
 }
 
 .container {
@@ -92,4 +92,5 @@ body {
   height: 100%;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
+  cursor: alias;
 }
