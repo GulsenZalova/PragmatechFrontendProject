@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#elements{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: $main-width;
+    height:$main-height;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $space-2x;
+    margin: $space-20x auto;
+    padding: $space-10x;
+}
+.elements-items{
+    position: relative;
+    width:  $main-width/4;
+    height: $main-height/1.5;
+    display: flex;
+    flex-direction: column;
+    padding: $space-6x $space-8x;
+    text-align: center;
+}
+.elements-items h1{
+    position: relative;
+    z-index: 1;
+    font-size:$space-6x;
+    font-weight: 700;
+    color:$fourth-color;
+}
+.elements-items i{
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 0;
+    font-size: 120px;
+    color: $secondary-color;
+    margin: $space-4x;
+    display: inline-block;
+    transition: all .8s ease;
+}
+.elements-items p{
+    font-size:$space-3x;
+    font-weight: 100;
+    color: $third-color;
+    margin-top: $space-10x;
+}
+.elements-items button{
+    width:$main-width/8;
+    height: $space-10x;
+    background-color: $main-color;
+    padding:$space-4x $space-4x;
+    text-align: center;
+    color: white;
+    border: none;
+    margin: $space-6x $space-14x;
+}
+button:hover{
+ background-color: $secondary-color;
+ transition: all .3s ease;
+}
+.elements-items:hover i{
+    transform: translateX(-140%);
+    cursor: pointer;
+}
