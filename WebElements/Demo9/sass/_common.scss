@@ -1,0 +1,60 @@
+#elements{
+    width: 100%;
+    height: 100vh;
+    }
+    .container{
+     width:$main-width;
+     height:$main-height;
+     margin: 200px auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: $space-2x;
+    }
+    .elements-item{
+    width: 320px;
+    height: 300px;
+    margin-top: $space-8x;
+    text-align: center;
+    padding: $space-4x $space-4x;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $secondary-color;
+    }
+    .elements-item h1{
+        font-size:  $space-6x;
+        color: black;
+        font-weight: 900;
+    
+    }
+    .elements-item p{
+        font-size:  $space-3x;
+        color: $third;
+        font-weight: 300;
+    }
+    .elements-item i{
+        margin-top: -60px;
+        font-size:  $space-8x;
+        border-radius: 50%;
+        padding:  $space-8x;
+        border: none;
+        color: $main-color;
+        background-color: white;
+    
+    }
+    .elements-item:hover i{
+        background-color: $main-color;
+        color: white;
+        cursor: pointer;
+       transition: all 0.3s ease;
+    }
+    .elements-item button{
+        width: $main-width/8;
+        height:$space-10x;
+        border: none;
+        border-radius: $space-6x;
+        margin-left: $space-14x;
+        background-color: $main-color;
+        color: white;
+    
+    }
