@@ -10,7 +10,6 @@ body{
     background-color: #edf4f3;
 }
 .container{
-    position: relative;
     width: 1200px;
     height:500px;
     display: grid;
@@ -30,30 +29,29 @@ body{
     background-color: #fff;
     border: 1px solid;  
 }
-.elements-items::after{
+.show::after{
     content: '';
     position: absolute;
-    top: 0;
+    z-index: -1;
     right: 0;
     height: 100%;
     width: 0%;
     background-color: #ff4343;
 }
-.elements-items:hover h1{
+.show{
+width: 300px;
+height: 50px;
+background-color: #e5e5e5;
+}
+.show:hover::after{
+    width: 100%;
     color: #fff;
-    background-position: right;
-
 }
 .elements-items h1{
     font-size:30px;
     font-weight: 700;
     color:black;
     padding: 13px 0;
-    background: linear-gradient(to right,#edf4f3 5%,#ff4343 50%);
-    background-position: left;
-    background-size: 200% 100%;
-    margin-top: 0;
-    margin-bottom: 15px;
 }
 .elements-items i{
     display: inline-block;
