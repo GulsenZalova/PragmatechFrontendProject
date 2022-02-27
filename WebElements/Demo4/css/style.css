@@ -50,6 +50,7 @@ body {
   height: 200px;
   padding: 30px 30px;
   margin: 20px 50px;
+  cursor: pointer;
 }
 
 .elements-items::after {
@@ -66,6 +67,7 @@ body {
 .elements-items:hover::after {
   width: 100%;
   background-color: #e12573;
+  cursor: pointer;
 }
 
 .elements-items:hover i {
@@ -78,6 +80,10 @@ body {
 
 .elements-items:hover p {
   color: white;
+}
+
+.elements-items:hover button {
+  background-color: #e75290;
 }
 
 .element-icon {

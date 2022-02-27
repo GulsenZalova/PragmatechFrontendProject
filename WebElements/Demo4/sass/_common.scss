@@ -31,6 +31,7 @@ body{
     height:$main-height/2;
     padding: $space-6x $space-6x;
     margin: $space-4x $space-10x;
+    cursor: pointer;
 }
 .elements-items::after{
     content: '';
@@ -44,7 +45,7 @@ body{
 .elements-items:hover::after{
     width: 100%;
     background-color:$main-color ;
-   cursor:alias;
+    cursor:pointer;
 }
 .elements-items:hover i{
     color: white;
@@ -54,6 +55,9 @@ body{
 }
 .elements-items:hover p{
     color: white;
+}
+.elements-items:hover button{
+    background-color: lighten($main-color, 10%);
 }
 .element-icon{
     font-size: $space-8x;
