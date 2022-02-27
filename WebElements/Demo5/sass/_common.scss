@@ -27,7 +27,7 @@ body{
     padding: $space-6x $space-7x;
     outline: 2px solid  $third-color;
     outline-offset: -10px;
-    background-color:$main-color;
+    background-color:lighten($main-color: 50%);
     box-shadow: 0 0 0 18px $main-color inset; 
     z-index: 1;
 
@@ -42,7 +42,7 @@ body{
     height: 100%;
     transform: scale(0.9);
     transition: all 0.3s ease; 
-    background-color:$secondary-color;
+    background-color:lighten($secondary-color: 60%);
     z-index: -1;
 }
 .elements-item:hover::after{
@@ -77,6 +77,6 @@ body{
     color: $main-color;
 }
 .elements-item:hover{
-    outline: $space-x solid $third-color;
+    outline: $space-x solid lighten($third-color, $amount: 60%);
     transition: all 0.9 linear;
 }
