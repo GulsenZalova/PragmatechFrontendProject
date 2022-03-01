@@ -1,1 +1,53 @@
 // Layihədə istifadə olunacaq bütün dəyişənlər
+$main-width:1200px;
+$main-height:400px;
+$font-size:13px;
+$font-size-dk:$font-size+1px;
+$font-size-k:$font-size+2px;
+$font-size-o:$font-size+3px;
+$font-size-b:$font-size+5px;
+$font-size-db:$font-size+7px;
+$font-size-eb:$font-size+11px;
+$font-family:" 'Jost', sans-serif";
+$font-weight-400:400;
+$font-weight-600:600;
+$font-weight-700:700;
+$padding-x:5px;
+$padding-2x:$padding-x*2;
+$padding-3x:$padding-x*3;
+$padding-4x:$padding-x*4;
+$padding-5x:$padding-x*5;
+$padding-6x:$padding-x*6;
+$margin-x:5px;
+$margin-2x:$padding-x*2;
+$margin-3x:$padding-x*3;
+$margin-4x:$padding-x*4;
+$margin-5x:$padding-x*5;
+$margin-6x:$padding-x*6;
+
+@mixin flex{
+    display: flex;
+}
+@mixin column{
+    flex-direction: column;
+}
+@mixin row{
+    flex-direction: row;
+}
+@mixin just-center{
+    justify-content: center;
+}
+@mixin just-between{
+    justify-content: space-between;
+}
+@mixin align-center{
+    align-items: center;
+}
+@mixin align-left{
+    align-items: left;
+}
+@mixin align-right{
+    align-items: right;
+}
+
+
