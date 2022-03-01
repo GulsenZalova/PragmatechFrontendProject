@@ -1,1 +1,59 @@
 // layihədə istifadə olunan bütün button classları
+
+// Buttons Start
+@mixin button{
+    width: 158px;
+    height: 44px;
+    color: white;
+    border-radius: 10px;
+}
+@mixin button1 {
+    @include button;
+    background-color: #AD1FEA;
+}
+@mixin button2 {
+    @include button;
+    background-color: #4661E6;
+}
+@mixin button3 {
+    @include button;
+    background-color: #3A4374;
+}
+@mixin button4 {
+    @include button;
+    background-color: #D73737;
+}
+@mixin button5 {
+    width: 75.67px;
+    height: 20px;
+    color: #647196;
+    border-radius: 10px;
+}
+@mixin button6 {
+    width: 158px;
+    height: 53px;
+    background: #373F68;
+    border-radius: 10px;
+    color: white;
+}
+// Buttons End
+// Button Hover Start
+@mixin button1-hover{
+    background: #C75AF6;
+}
+@mixin button2-hover{
+    background: #7C91F9;
+}
+@mixin button3-hover{
+    background: #656EA3;
+}
+@mixin button4-hover{
+    background: #E98888;
+}
+@mixin button5-hover{
+    text-decoration-line: underline;
+}
+@mixin button6-hover{
+    text-decoration-line: underline;
+}
+// Button Hover End
