@@ -1,0 +1,22 @@
+// Layihədə istifadə olunacaq bütün interaktiv elementlərin classları
+// İnteractive Elements 
+@mixin int{
+    width: 40px;
+    height: 53px;
+    background: #F2F4FE;
+    border-radius: 10px;
+}
+@mixin int-sort{
+    width: 193px;
+    height: 72px;
+    background: #373F68;
+    border-radius: 10px;
+}
+// İnteractive Elements Hover
+@mixin int-hover{
+    background: #CFD7FF;
+}
+// İnteractive Elements Active
+@mixin int-active{
+    background: #4661E6;
+}
