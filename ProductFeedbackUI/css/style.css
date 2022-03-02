@@ -1,1 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#suggestions {
+  width: 1440px;
+  height: 1325px;
+  background: #F7F8FD;
+}
+
+#suggestions .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 800px;
+  height: 600px;
+  margin: 0px auto;
+  background-color: #F7F8FD;
+}
+
+#suggestions .feedback .feedback-item {
+  width: 255px;
+  height: 529px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-head {
+  width: 193px;
+  height: 137px;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 62px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-head h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-head p {
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-type a {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background: #4661E6;
+  text-decoration: none;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

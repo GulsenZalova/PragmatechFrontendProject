@@ -18,5 +18,9 @@
 }
 // İnteractive Elements Active
 @mixin int-active{
+    display: inline-block;
+    width: 48px;
+    height: 30px;
     background: #4661E6;
+    text-decoration: none;
 }

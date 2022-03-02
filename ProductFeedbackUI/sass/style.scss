@@ -1,2 +1,58 @@
 @import "general/general";
 @import "common/components";
+
+#suggestions{
+    width: 1440px;
+    height:1325px;
+    background: #F7F8FD;
+    .feedback{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:800px ;
+        height: 600px;
+        margin: 0px auto;
+        background-color: #F7F8FD;
+        .feedback-item{
+            width: 255px;
+            height:529px;
+            .feedback-item-head{
+                width: 193px;
+                height: 137px;
+                background: $gradient;
+                border-radius: 10px;
+                text-align: left;
+                padding-top: 62px;
+                h2{
+                    @include h2;
+                }
+                p{
+                    @include body2 
+                }
+            }
+            .feedback-item-type{
+                a{
+                    @include int-active
+                }
+            }
+            .feedback-item-report{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                div{
+                    h1{}
+                    i{}
+                    p{}
+
+                }
+                div{
+                    a{}
+                    p{}
+                }
+            }
+        }
+        .feedback-info{
+           
+        }
+    }
+}
