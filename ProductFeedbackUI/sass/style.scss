@@ -8,16 +8,15 @@
     .feedback{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width:800px ;
-        height: 600px;
-        margin: 0px auto;
+        margin: auto auto;
+        padding-top: 30px;
         background-color: #F7F8FD;
         .feedback-item{
+            margin-right: 50px;
             width: 255px;
             height:529px;
             .feedback-item-head{
-                width: 193px;
+                width: 255px;
                 height: 137px;
                 background: $gradient;
                 border-radius: 10px;
@@ -31,28 +30,84 @@
                 }
             }
             .feedback-item-type{
+                width: 255px;
+                height: 166px;
+                background-color: #FFFFFF;
+                border-radius: 10px;
+                margin-top: 10px;
                 a{
                     @include int-active
                 }
             }
             .feedback-item-report{
+                width: 255px;
+                height: 178px;
+                background-color: #FFFFFF;
+                border-radius: 10px;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                margin-top: 10px;
                 div{
                     h1{}
-                    i{}
-                    p{}
-
+                    .i-p{
+                        display: flex;
+                        flex-direction: row;
+                    }
                 }
                 div{
                     a{}
-                    p{}
                 }
             }
         }
         .feedback-info{
-           
+         
+            .nav-info{
+                width: 825px;
+                height: 72px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color:$softblue;
+                border-radius: 10px;
+                .nav-info-item{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin:auto 20px;
+                    a{
+                        text-decoration: none;
+                        color: #F7F8FD;
+                    }
+                }
+                button{
+                    padding: 10px 30px;
+                    color: #F7F8FD;
+                    background-color: $violet;
+                    margin: 10px;
+                    border-radius: 10px;
+                    border: none;
+                }
+            }
+            .feedback-info-groups{
+                .feedback-info-group{
+                    width: 825px;
+                    height:151px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                    background: #FFFFFF;
+                    .group-info{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        
+                    }
+                }
+            }
+
         }
     }
 }
