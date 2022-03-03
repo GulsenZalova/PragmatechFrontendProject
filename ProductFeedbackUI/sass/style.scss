@@ -40,7 +40,7 @@
                 @include align-left;
                 div{
                     margin-bottom: 10px;
-                    padding: 20px 0px 0px 20px
+                    @include padding(20px,20px);
                 }
                 
                 .btn-1{
@@ -60,16 +60,16 @@
                 border-radius: $radius;
                 @include flex-row;
                 @include between;
-                margin-top: 10px;
-                padding: 20px 20px 0px 20px;
+                @include margin(10px,0px);
+                @include padding(20px,20px);
                 div{
                     h3{
                        @include h3; 
-                       margin-bottom: 20px;
+                       @include margin(20px,0px);
                     }
                     div{
                         @include flex-row;
-                        .icon-pink{color: $softpink;margin: 5px 10px 0px 0px; font-size: 10px;}
+                        .icon-pink{color: $softpink;margin: 5px 10px 0px 0px;font-size: 10px;}
                         .icon-violet{color: $violet;margin: 5px 10px 0px 0px;font-size: 10px}
                         .icon-blue{color: $mayablue;margin: 5px 10px 0px 0px;font-size: 10px}
                         p{@include body1}

@@ -19,3 +19,9 @@
 @mixin just-center{
     justify-content: center;
 }
+@mixin margin($top-bottom,$left-right){
+    margin:$top-bottom $left-right;
+}
+@mixin padding($top-bottom,$left-right){
+    padding:$top-bottom $left-right;
+}
