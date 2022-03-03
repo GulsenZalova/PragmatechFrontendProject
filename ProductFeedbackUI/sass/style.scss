@@ -7,8 +7,7 @@
     height:1325px;
     background: #F7F8FD;
     .feedback{
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         margin: 0px auto ;
         justify-content: center;
         padding-top: 30px;
@@ -19,11 +18,11 @@
             height:529px;
             .feedback-item-head{
                 width: 255px;
-                height: 137px;
+                height: 178px;
                 background: $gradient;
                 border-radius: 10px;
-                text-align: left;
-                padding-top: 62px;
+                padding-left: 20px;
+                padding-top: 80px;
                 h2{
                     @include h2;
                 }
@@ -32,8 +31,7 @@
                 }
             }
             .feedback-item-type{
-                display: flex;
-                flex-direction: column;
+                @include flex-column;
                 width: 255px;
                 height: 166px;
                 background-color: #FFFFFF;
@@ -56,23 +54,21 @@
                 }    
             }
             .feedback-item-report{
-                width: 220px;
+                width: 255px;
                 height: 178px;
                 background-color: #FFFFFF;
                 border-radius: 10px;
-                display: flex;
-                flex-direction: row;
+                @include flex-row;
                 justify-content: space-between;
                 margin-top: 10px;
-                padding: 20px 20px 0px 15px;
+                padding: 20px 20px 0px 20px;
                 div{
                     h3{
                        @include h3; 
                        margin-bottom: 20px;
                     }
                     div{
-                        display: flex;
-                        flex-direction: row;
+                        @include flex-row;
                         .icon-pink{color: $softpink;margin: 5px 10px 0px 0px; font-size: 10px;}
                         .icon-violet{color: $violet;margin: 5px 10px 0px 0px;font-size: 10px}
                         .icon-blue{color: $mayablue;margin: 5px 10px 0px 0px;font-size: 10px}
@@ -92,15 +88,13 @@
             .nav-info{
                 width: 825px;
                 height: 72px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+                @include flex-row;
+                @include between;
                 background-color:$softblue;
                 border-radius: 10px;
                 .nav-info-item{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
+                    @include flex-row;
+                    @include between;
                     margin:auto 20px;
                     i{
                     color: #F7F8FD;
@@ -138,20 +132,17 @@
                 .feedback-info-group{
                     width: 825px;
                     height:151px;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
+                    @include flex-row;
+                    @include between;
                     margin-top: 20px;
                     border-radius: 10px;
                     background: #FFFFFF;
                     padding: 40px 20px 0px 20px;
                     .group-info{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
+                        @include flex-row;
+                        @include between;
                         .group-info-int{
-                          display: flex;
-                          flex-direction: column;
+                          @include flex-column;
                           margin-right: 40px;
                           @include int;
                             i{

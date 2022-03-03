@@ -1,1 +1,12 @@
 // // Layihənin eksizini hazırlamaq üçün lazım olan classlar 
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+@mixin between{
+    justify-content: space-between;
+}
