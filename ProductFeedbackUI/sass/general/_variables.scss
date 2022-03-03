@@ -21,36 +21,18 @@ $padding-3x:$padding-x*3;
 $padding-4x:$padding-x*4;
 $padding-5x:$padding-x*5;
 $padding-6x:$padding-x*6;
+$padding-7x:$padding-x*7;
+$padding-8x:$padding-x*8;
+$padding-16x:$padding-x*16;
 $margin-x:5px;
-$margin-2x:$padding-x*2;
-$margin-3x:$padding-x*3;
-$margin-4x:$padding-x*4;
-$margin-5x:$padding-x*5;
-$margin-6x:$padding-x*6;
+$margin-2x:$margin-x*2;
+$margin-3x:$margin-x*3;
+$margin-4x:$margin-x*4;
+$margin-5x:$margin-x*5;
+$margin-6x:$margin-x*6;
+$margin-8x:$margin-x*8;
+$margin-10x:$margin-x*10;
+$margin-16x:$margin-x*16;
 
-@mixin flex{
-    display: flex;
-}
-@mixin column{
-    flex-direction: column;
-}
-@mixin row{
-    flex-direction: row;
-}
-@mixin just-center{
-    justify-content: center;
-}
-@mixin just-between{
-    justify-content: space-between;
-}
-@mixin align-center{
-    align-items: center;
-}
-@mixin align-left{
-    align-items: left;
-}
-@mixin align-right{
-    align-items: right;
-}
 
 

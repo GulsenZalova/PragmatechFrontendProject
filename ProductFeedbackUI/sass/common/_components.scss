@@ -1,3 +1,76 @@
 @import "buttons";
 @import "forms";
 @import "interactive";
+
+@mixin page{
+    @include flex-row;
+    margin: 0px auto ;
+    @include just-center;
+    padding-top:$padding-6x;
+    background-color: $ghostwhite2;
+}
+@mixin page-item{
+    margin-right: $margin-10x;
+    width:$secondary-width;
+    height:529px;
+}
+@mixin page-head{
+    width: $secondary-width;
+    height: 178px;
+    background: $gradient;
+    border-radius:$radius;
+    padding-left: $padding-4x;
+    padding-top:$padding-16x;
+}
+@mixin page-type{
+    @include flex-column;
+    width: $secondary-width;
+    height: 166px;
+    background-color: $white;
+    border-radius: $radius;
+    margin-top: $margin-2x;
+    @include align-left;
+}
+@mixin page-report{
+    width: $secondary-width;
+    height: 178px;
+    background-color: $white;
+    border-radius: $radius;
+    @include flex-row;
+    @include between;
+    @include margin($margin-2x,0px,0px,0px);
+    @include padding($padding-4x,0px,0px,0px);
+}
+@mixin nav-info {
+    width: $third-width;
+    height: 72px;
+    @include flex-row;
+    @include between;
+    background-color:$softblue;
+    border-radius: $radius;
+}
+@mixin nav-info-item {
+    @include flex-row;
+    @include between;
+    margin:auto $margin-4x;
+}
+@mixin nav-button {
+    width: 158px;
+    height: 44px;
+    padding: $padding-2x $padding-6x;
+    color: $ghostwhite2;
+    background-color: $violet;
+    margin:$margin-2x;
+    border-radius: $radius;
+    border: none;
+}
+@mixin info-group {
+    width: $third-width;
+    height:151px;
+    @include flex-row;
+    @include between;
+    margin-top: $margin-2x;
+    border-radius: $radius;
+    background: $white;
+    padding: $padding-8x $padding-4x 0px $padding-4x;
+}

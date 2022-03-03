@@ -129,8 +129,7 @@ a {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type div {
-  margin-bottom: 10px;
-  padding: 20px 20px;
+  margin: 20px 0px 0px 20px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type .btn-1 {
@@ -193,8 +192,8 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 10px 0px;
-  padding: 20px 20px;
+  margin: 10px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div h3 {
@@ -205,7 +204,7 @@ a {
   line-height: 20px;
   letter-spacing: -0.25px;
   color: #3A4374;
-  margin: 20px 0px;
+  margin: 20px 5px 20px 20px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div div {
@@ -220,19 +219,19 @@ a {
 
 #suggestions .feedback .feedback-item .feedback-item-report div div .icon-pink {
   color: #F49F85;
-  margin: 5px 10px 0px 0px;
+  margin: 5px 10px 0px 20px;
   font-size: 10px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div div .icon-violet {
   color: #AD1FEA;
-  margin: 5px 10px 0px 0px;
+  margin: 5px 10px 0px 20px;
   font-size: 10px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div div .icon-blue {
   color: #62BCFA;
-  margin: 5px 10px 0px 0px;
+  margin: 5px 10px 0px 20px;
   font-size: 10px;
 }
 
@@ -245,6 +244,7 @@ a {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div a {
+  margin: 20px 10px 20px 20px;
   font-size: 13px;
 }
 
@@ -279,12 +279,7 @@ a {
   margin: auto 20px;
 }
 
-#suggestions .feedback .feedback-info .nav-info .nav-info-item i {
-  color: #F7F8FD;
-  margin-right: 20px;
-}
-
-#suggestions .feedback .feedback-info .nav-info .nav-info-item h3 {
+#suggestions .feedback .feedback-info .nav-info .nav-info-item i, #suggestions .feedback .feedback-info .nav-info .nav-info-item h3 {
   color: #F7F8FD;
   margin-right: 20px;
 }
@@ -335,7 +330,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 10px;
   background: #FFFFFF;
   padding: 40px 20px 0px 20px;
@@ -460,7 +455,7 @@ a {
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-icon i {
-  padding-top: 30px;
+  padding-top: 20px;
   width: 18px;
   height: 16px;
   color: #CDD2EE;
