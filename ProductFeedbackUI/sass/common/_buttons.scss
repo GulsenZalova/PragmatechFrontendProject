@@ -11,18 +11,20 @@
     background-color: #F2F4FF;
     text-decoration: none;
     padding: 5px 10px;
+    font-size: 13px
 }
 @mixin btn-2{
+    @include btn-1;
+    
     width: 111px;
     height: 30px;
-    @include btn-1;
     padding: 5px 15px;
 }
 @mixin btn-3{
+    @include btn-1;
     width: 77px;
     height: 30px;
     padding: 5px 10px;
-    @include btn-1;
 }
 @mixin button1 {
     @include button;

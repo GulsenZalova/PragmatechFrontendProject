@@ -99,11 +99,24 @@ table {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 255px;
   height: 166px;
   background-color: #FFFFFF;
   border-radius: 10px;
   margin-top: 10px;
+  text-align: left;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-type div {
+  margin-bottom: 10px;
+  padding: 20px 0px 0px 20px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type .btn-1 {
@@ -116,11 +129,10 @@ table {
   background-color: #F2F4FF;
   text-decoration: none;
   padding: 5px 10px;
+  font-size: 13px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type .btn-2 {
-  width: 111px;
-  height: 30px;
   width: 48px;
   height: 30px;
   color: white;
@@ -130,13 +142,13 @@ table {
   background-color: #F2F4FF;
   text-decoration: none;
   padding: 5px 10px;
+  font-size: 13px;
+  width: 111px;
+  height: 30px;
   padding: 5px 15px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type .btn-3 {
-  width: 77px;
-  height: 30px;
-  padding: 5px 10px;
   width: 48px;
   height: 30px;
   color: white;
@@ -145,6 +157,10 @@ table {
   color: #4661E6;
   background-color: #F2F4FF;
   text-decoration: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  width: 77px;
+  height: 30px;
   padding: 5px 10px;
 }
 
@@ -349,11 +365,10 @@ table {
   background-color: #F2F4FF;
   text-decoration: none;
   padding: 5px 10px;
+  font-size: 13px;
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-2 {
-  width: 111px;
-  height: 30px;
   width: 48px;
   height: 30px;
   color: white;
@@ -363,13 +378,13 @@ table {
   background-color: #F2F4FF;
   text-decoration: none;
   padding: 5px 10px;
+  font-size: 13px;
+  width: 111px;
+  height: 30px;
   padding: 5px 15px;
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-3 {
-  width: 77px;
-  height: 30px;
-  padding: 5px 10px;
   width: 48px;
   height: 30px;
   color: white;
@@ -378,6 +393,10 @@ table {
   color: #4661E6;
   background-color: #F2F4FF;
   text-decoration: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  width: 77px;
+  height: 30px;
   padding: 5px 10px;
 }
 
