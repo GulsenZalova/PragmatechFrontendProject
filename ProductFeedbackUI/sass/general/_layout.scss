@@ -10,3 +10,12 @@
 @mixin between{
     justify-content: space-between;
 }
+@mixin align-center {
+    text-align:center;
+}
+@mixin align-left{
+    text-align:left;
+}
+@mixin just-center{
+    justify-content: center;
+}

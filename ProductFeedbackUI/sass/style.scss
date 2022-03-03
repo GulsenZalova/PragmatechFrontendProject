@@ -3,24 +3,24 @@
 
 *{box-sizing: border-box;}
 #suggestions{
-    width: 1440px;
-    height:1325px;
-    background: #F7F8FD;
+    width: $main-width;
+    height:$main-height;
+    background: $ghostwhite2;
     .feedback{
         @include flex-row;
         margin: 0px auto ;
-        justify-content: center;
+        @include just-center;
         padding-top: 30px;
-        background-color: #F7F8FD;
+        background-color: $ghostwhite2;
         .feedback-item{
             margin-right: 50px;
-            width: 255px;
+            width:$secondary-width;
             height:529px;
             .feedback-item-head{
-                width: 255px;
+                width: $secondary-width;
                 height: 178px;
                 background: $gradient;
-                border-radius: 10px;
+                border-radius:$radius;
                 padding-left: 20px;
                 padding-top: 80px;
                 h2{
@@ -32,12 +32,12 @@
             }
             .feedback-item-type{
                 @include flex-column;
-                width: 255px;
+                width: $secondary-width;
                 height: 166px;
-                background-color: #FFFFFF;
-                border-radius: 10px;
+                background-color: $white;
+                border-radius: $radius;
                 margin-top: 10px;
-                text-align: left;
+                @include align-left;
                 div{
                     margin-bottom: 10px;
                     padding: 20px 0px 0px 20px
@@ -54,12 +54,12 @@
                 }    
             }
             .feedback-item-report{
-                width: 255px;
+                width: $secondary-width;
                 height: 178px;
-                background-color: #FFFFFF;
-                border-radius: 10px;
+                background-color: $white;
+                border-radius: $radius;
                 @include flex-row;
-                justify-content: space-between;
+                @include between;
                 margin-top: 10px;
                 padding: 20px 20px 0px 20px;
                 div{
@@ -77,7 +77,6 @@
                 }
                 div{
                     a{
-                        text-decoration: none;
                         font-size: 13px;
                     }
                 }
@@ -86,30 +85,28 @@
         .feedback-info{
          
             .nav-info{
-                width: 825px;
+                width: $third-width;
                 height: 72px;
                 @include flex-row;
                 @include between;
                 background-color:$softblue;
-                border-radius: 10px;
+                border-radius: $radius;
                 .nav-info-item{
                     @include flex-row;
                     @include between;
                     margin:auto 20px;
                     i{
-                    color: #F7F8FD;
+                    color: $ghostwhite2;
                     margin-right: 20px;
                     }
-                    h3{color: #F7F8FD;
+                    h3{color: $ghostwhite2;
                     margin-right: 20px;}
                    div{
-                       display: flex;
-                       flex-direction: row;
+                       @include flex-row;
                        margin-top: 3px;
                     
                          a{
-                        text-decoration: none;
-                        color: #F7F8FD;
+                        color: $ghostwhite2;
                         font-size: 13px;
                         margin-right: 5px;
                     }
@@ -121,22 +118,22 @@
                     width: 158px;
                     height: 44px;
                     padding: 10px 30px;
-                    color: #F7F8FD;
+                    color: $ghostwhite2;
                     background-color: $violet;
                     margin: 10px;
-                    border-radius: 10px;
+                    border-radius: $radius;
                     border: none;
                 }
             }
             .feedback-info-groups{
                 .feedback-info-group{
-                    width: 825px;
+                    width: $third-width;
                     height:151px;
                     @include flex-row;
                     @include between;
                     margin-top: 20px;
-                    border-radius: 10px;
-                    background: #FFFFFF;
+                    border-radius: $radius;
+                    background: $white;
                     padding: 40px 20px 0px 20px;
                     .group-info{
                         @include flex-row;
@@ -147,7 +144,7 @@
                           @include int;
                             i{
                             font-size: 10px;
-                            color: #4661E6;
+                            color: $blue;
                             margin: 5px 5px;
                             a{
                                 @include text-int
@@ -174,14 +171,14 @@
                         }
                     }
                     .group-icon{
-                        text-align: center;
+                        @include align-center;
                         i{
                           padding-top: 30px;
                           width: 18px;
                           height:16px ;
-                          color: #CDD2EE;
+                          color: $lightgray;
                         };
-                        span{color:#3A4374;}
+                        span{color:$softblue;}
                     }
                 }
             }

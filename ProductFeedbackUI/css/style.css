@@ -48,6 +48,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -241,7 +245,6 @@ table {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div a {
-  text-decoration: none;
   font-size: 13px;
 }
 
@@ -298,7 +301,6 @@ table {
 }
 
 #suggestions .feedback .feedback-info .nav-info .nav-info-item div a {
-  text-decoration: none;
   color: #F7F8FD;
   font-size: 13px;
   margin-right: 5px;
