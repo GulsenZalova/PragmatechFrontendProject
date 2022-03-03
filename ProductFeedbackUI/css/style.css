@@ -48,6 +48,11 @@ table {
   border-spacing: 0;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 #suggestions {
   width: 1440px;
   height: 1325px;
@@ -62,7 +67,10 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: auto auto;
+  margin: 0px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 30px;
   background-color: #F7F8FD;
 }
@@ -165,7 +173,7 @@ table {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report {
-  width: 255px;
+  width: 220px;
   height: 178px;
   background-color: #FFFFFF;
   border-radius: 10px;
@@ -180,9 +188,21 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10px;
+  padding: 20px 20px 0px 15px;
 }
 
-#suggestions .feedback .feedback-item .feedback-item-report div .i-p {
+#suggestions .feedback .feedback-item .feedback-item-report div h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+  margin-bottom: 20px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report div div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,6 +210,37 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report div div .icon-pink {
+  color: #F49F85;
+  margin: 5px 10px 0px 0px;
+  font-size: 10px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report div div .icon-violet {
+  color: #AD1FEA;
+  margin: 5px 10px 0px 0px;
+  font-size: 10px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report div div .icon-blue {
+  color: #62BCFA;
+  margin: 5px 10px 0px 0px;
+  font-size: 10px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report div div p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #647196;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-report div a {
+  text-decoration: none;
+  font-size: 13px;
 }
 
 #suggestions .feedback .feedback-info .nav-info {
@@ -268,7 +319,7 @@ table {
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group {
-  width: 785px;
+  width: 825px;
   height: 151px;
   display: -webkit-box;
   display: -ms-flexbox;
