@@ -5,7 +5,9 @@
     width: 158px;
     height: 44px;
     color: white;
+    border: none;
     border-radius: 10px;
+    color: #4661E6;
 }
 @mixin button1 {
     @include button;

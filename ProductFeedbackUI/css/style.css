@@ -217,3 +217,76 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info .group-info-int {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 20px;
+  width: 40px;
+  height: 53px;
+  background: #F2F4FE;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info .group-info-int i {
+  font-size: 10px;
+  color: #4661E6;
+  margin: 5px 5px;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info .group-info-int i a {
+  font-family: 'Jost', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 18.79;
+  letter-spacing: -0.18;
+  text-align: center;
+  text-decoration: none;
+  color: #3A4374;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #647196;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div button {
+  width: 158px;
+  height: 44px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4661E6;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-icon i {
+  width: 18px;
+  height: 16px;
+  color: #CDD2EE;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-icon span {
+  color: #3A4374;
+}

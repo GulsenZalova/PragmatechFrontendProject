@@ -22,6 +22,7 @@
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.25px;
+    color: #3A4374;
 }
 @mixin h4{
     font-family: 'Jost', sans-serif;
@@ -36,6 +37,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
+    color: #647196;
 }
 @mixin body2 {
     font-family: 'Jost', sans-serif;
@@ -43,10 +45,20 @@
     font-weight: 400;
     line-height: 22px;
 }
-@mixin body1 {
+@mixin body3 {
     font-family: 'Jost', sans-serif;
     font-size: 13px;
     font-weight: 600;
     line-height: 2px;
 }
-    
+@mixin text-int{
+    font-family:'Jost', sans-serif ;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 18.79;
+    letter-spacing: -0.18;
+    text-align: center;
+    text-decoration: none;
+    color: #3A4374;
+}  

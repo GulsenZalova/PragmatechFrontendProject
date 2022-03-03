@@ -103,7 +103,32 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
-                        
+                        .group-info-int{
+                          display: flex;
+                          flex-direction: column;
+                          margin-right: 20px;
+                          @include int;
+                            i{font-size: 10px;
+                            color: #4661E6;
+                            margin: 5px 5px;
+                            a{
+                                @include text-int
+                              }  
+                        }
+                            
+                        }
+                        div{
+                            h3{@include h3}
+                            p{@include body1}
+                            button{@include button}          
+                        }
+                    }
+                    .group-icon{
+                        i{width: 18px;
+                          height:16px ;
+                          color: #CDD2EE;
+                        };
+                        span{color:#3A4374;}
                     }
                 }
             }
