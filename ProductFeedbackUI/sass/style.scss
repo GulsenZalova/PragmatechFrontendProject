@@ -2,6 +2,7 @@
 @import "common/components";
 
 *{box-sizing: border-box;}
+// Suggestion Section Start
 #suggestions{
     width: $main-width;
     height:$main-height;
@@ -136,3 +137,114 @@
         }
     }
 }
+// Suggestion Section End
+// Suggestion Empty Section Start
+#suggestions-empty{
+    width: $main-width;
+    height: 919px;
+    background: $ghostwhite2;
+    .feedback{
+        @include page;
+        .feedback-item{
+            @include page-item;
+            .feedback-item-head{
+                @include page-head;
+                h2{
+                    @include h2;
+                }
+                p{
+                    @include body2 
+                }
+            }
+            .feedback-item-type{
+                @include page-type;
+                div{
+                    @include padding($padding-4x,0px, 0px,$padding-4x);
+                } 
+                .btn-1{
+                    @include btn-1; 
+                }
+                .btn-2{
+                    @include btn-2; 
+                }
+                .btn-3{
+                    @include btn-3; 
+                }    
+            }
+            .feedback-item-report{
+                @include page-report;
+                div{
+                    h3{
+                       @include h3; 
+                       @include padding($padding-4x,$padding-x,$padding-4x,$padding-4x);
+                    }
+                    div{
+                        @include flex-row;
+                        .icon-pink{color: $softpink;margin: 5px 10px 0px 20px;font-size: 10px;}
+                        .icon-violet{color: $violet;margin: 5px 10px 0px 20px;font-size: 10px}
+                        .icon-blue{color: $mayablue;margin: 5px 10px 0px 20px;font-size: 10px}
+                        p{@include body1}
+                    }
+                }
+                div{ 
+                    a{  
+                        @include padding($padding-4x,$padding-2x,$padding-4x,$padding-4x);
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .feedback-info{
+            .nav-info{
+                @include nav-info;
+               .nav-info-item{
+                   @include nav-info-item;
+                   i,h3{
+                   color: $ghostwhite2;
+                   margin-right: $margin-4x;
+                   }
+                  div{
+                      @include flex-row;
+                      margin-top: 3px;
+                   
+                        a{
+                       color: $ghostwhite2;
+                       font-size: 13px;
+                       margin-right: 5px;
+                   }
+                       i{font-size: 10px;
+                       margin-top: 3px;}
+                  }
+               }
+               button{
+                   @include nav-button
+               }
+           }
+           .feedback-main{
+            .feedback-main-box{
+               width:$third-width;
+               height:600px;
+               background-color: $white;
+               img{
+               }
+               h1{@include h1}
+               p{@include body1}
+               button{@include nav-button;
+                margin-left: 120px;         
+            }
+            }
+            .feedback-main-info{
+                margin: 250px auto;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width:410px ;
+                height: 189px;
+            }
+           }
+        }
+    }
+}
+// Suggestion Empty Section End
