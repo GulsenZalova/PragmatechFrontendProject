@@ -35,9 +35,16 @@
                 background-color: #FFFFFF;
                 border-radius: 10px;
                 margin-top: 10px;
-                a{
-                    @include int-active
+                
+                .btn-1{
+                    @include btn-1; 
                 }
+                .btn-2{
+                    @include btn-2; 
+                }
+                .btn-3{
+                    @include btn-3; 
+                }    
             }
             .feedback-item-report{
                 width: 255px;
@@ -75,12 +82,30 @@
                     flex-direction: row;
                     justify-content: space-between;
                     margin:auto 20px;
-                    a{
+                    i{
+                    color: #F7F8FD;
+                    margin-right: 20px;
+                    }
+                    h3{color: #F7F8FD;
+                    margin-right: 20px;}
+                   div{
+                       display: flex;
+                       flex-direction: row;
+                       margin-top: 3px;
+                    
+                         a{
                         text-decoration: none;
                         color: #F7F8FD;
+                        font-size: 13px;
+                        margin-right: 5px;
                     }
+                        i{font-size: 10px;
+                        margin-top: 3px;}
+                   }
                 }
                 button{
+                    width: 158px;
+                    height: 44px;
                     padding: 10px 30px;
                     color: #F7F8FD;
                     background-color: $violet;
@@ -91,7 +116,7 @@
             }
             .feedback-info-groups{
                 .feedback-info-group{
-                    width: 825px;
+                    width: 785px;
                     height:151px;
                     display: flex;
                     flex-direction: row;
@@ -99,6 +124,7 @@
                     margin-top: 20px;
                     border-radius: 10px;
                     background: #FFFFFF;
+                    padding: 40px 20px 0px 20px;
                     .group-info{
                         display: flex;
                         flex-direction: row;
@@ -106,9 +132,10 @@
                         .group-info-int{
                           display: flex;
                           flex-direction: column;
-                          margin-right: 20px;
+                          margin-right: 40px;
                           @include int;
-                            i{font-size: 10px;
+                            i{
+                            font-size: 10px;
                             color: #4661E6;
                             margin: 5px 5px;
                             a{
@@ -118,13 +145,28 @@
                             
                         }
                         div{
-                            h3{@include h3}
-                            p{@include body1}
-                            button{@include button}          
+                            h3{@include h3;
+                               padding-bottom: 10px;  
+                            }
+                            p{@include body1;
+                              padding-bottom: 10px;  
+                            }
+                            .btn-1{
+                             @include btn-1
+                            }
+                            .btn-2{
+                             @include btn-2
+                            }
+                            .btn-3{
+                                @include btn-3
+                            }          
                         }
                     }
                     .group-icon{
-                        i{width: 18px;
+                        text-align: center;
+                        i{
+                          padding-top: 30px;
+                          width: 18px;
                           height:16px ;
                           color: #CDD2EE;
                         };

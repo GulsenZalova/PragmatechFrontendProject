@@ -106,12 +106,46 @@ table {
   margin-top: 10px;
 }
 
-#suggestions .feedback .feedback-item .feedback-item-type a {
-  display: inline-block;
+#suggestions .feedback .feedback-item .feedback-item-type .btn-1 {
   width: 48px;
   height: 30px;
-  background: #4661E6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4661E6;
+  background-color: #F2F4FF;
   text-decoration: none;
+  padding: 5px 10px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-type .btn-2 {
+  width: 111px;
+  height: 30px;
+  width: 48px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4661E6;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  padding: 5px 10px;
+  padding: 5px 15px;
+}
+
+#suggestions .feedback .feedback-item .feedback-item-type .btn-3 {
+  width: 77px;
+  height: 30px;
+  padding: 5px 10px;
+  width: 48px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4661E6;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  padding: 5px 10px;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report {
@@ -173,12 +207,42 @@ table {
   margin: auto 20px;
 }
 
-#suggestions .feedback .feedback-info .nav-info .nav-info-item a {
+#suggestions .feedback .feedback-info .nav-info .nav-info-item i {
+  color: #F7F8FD;
+  margin-right: 20px;
+}
+
+#suggestions .feedback .feedback-info .nav-info .nav-info-item h3 {
+  color: #F7F8FD;
+  margin-right: 20px;
+}
+
+#suggestions .feedback .feedback-info .nav-info .nav-info-item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 3px;
+}
+
+#suggestions .feedback .feedback-info .nav-info .nav-info-item div a {
   text-decoration: none;
   color: #F7F8FD;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+#suggestions .feedback .feedback-info .nav-info .nav-info-item div i {
+  font-size: 10px;
+  margin-top: 3px;
 }
 
 #suggestions .feedback .feedback-info .nav-info button {
+  width: 158px;
+  height: 44px;
   padding: 10px 30px;
   color: #F7F8FD;
   background-color: #AD1FEA;
@@ -188,7 +252,7 @@ table {
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group {
-  width: 825px;
+  width: 785px;
   height: 151px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,6 +267,7 @@ table {
   margin-top: 20px;
   border-radius: 10px;
   background: #FFFFFF;
+  padding: 40px 20px 0px 20px;
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info {
@@ -226,7 +291,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 20px;
+  margin-right: 40px;
   width: 40px;
   height: 53px;
   background: #F2F4FE;
@@ -262,6 +327,7 @@ table {
   line-height: 20px;
   letter-spacing: -0.25px;
   color: #3A4374;
+  padding-bottom: 10px;
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div p {
@@ -270,18 +336,57 @@ table {
   font-weight: 400;
   line-height: 23px;
   color: #647196;
+  padding-bottom: 10px;
 }
 
-#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div button {
-  width: 158px;
-  height: 44px;
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-1 {
+  width: 48px;
+  height: 30px;
   color: white;
   border: none;
   border-radius: 10px;
   color: #4661E6;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-2 {
+  width: 111px;
+  height: 30px;
+  width: 48px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4661E6;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  padding: 5px 10px;
+  padding: 5px 15px;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-3 {
+  width: 77px;
+  height: 30px;
+  padding: 5px 10px;
+  width: 48px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: #4661E6;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+#suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-icon {
+  text-align: center;
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-icon i {
+  padding-top: 30px;
   width: 18px;
   height: 16px;
   color: #CDD2EE;

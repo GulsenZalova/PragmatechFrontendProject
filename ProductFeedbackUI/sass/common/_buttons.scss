@@ -1,13 +1,28 @@
 // layihədə istifadə olunan bütün button classları
 
 // Buttons Start
-@mixin button{
-    width: 158px;
-    height: 44px;
+@mixin btn-1{
+    width: 48px;
+    height: 30px;
     color: white;
     border: none;
     border-radius: 10px;
     color: #4661E6;
+    background-color: #F2F4FF;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+@mixin btn-2{
+    width: 111px;
+    height: 30px;
+    @include btn-1;
+    padding: 5px 15px;
+}
+@mixin btn-3{
+    width: 77px;
+    height: 30px;
+    padding: 5px 10px;
+    @include btn-1;
 }
 @mixin button1 {
     @include button;
