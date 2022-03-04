@@ -1,67 +1,67 @@
 // Layihədə istifadə olunacaq bütün font və şriftlərlə bağlı classlar 
 @mixin h1{
-    font-family: 'Jost', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
+    font-family: $font-family;
+    font-size: $font-size-eb;
+    font-style: $font-normal;
+    font-weight:$font-weight-700;
     line-height: 35px;
     letter-spacing: -0.33px;
     color:$softblue;
 }
 @mixin h2{
-    font-family: 'Jost', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
+    font-family: $font-family;
+    font-size:$font-size-db;
+    font-style:$font-normal;
+    font-weight: $font-weight-700;
     line-height: 26px;
     letter-spacing: -0.25px;
-    color: #ffffff;
+    color: $white;
 }
 @mixin h3{
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
+    font-family: $font-family;
+    font-size: $font-size-b;
+    font-style: $font-normal;
+    font-weight: $font-weight-700;
     line-height: 20px;
     letter-spacing: -0.25px;
-    color: #3A4374;
+    color: $softblue;
 }
 @mixin h4{
-    font-family: 'Jost', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
+    font-family: $font-family;
+    font-size: $font-size-dk;
+    font-style: $font-normal;
+    font-weight: $font-weight-700;
     line-height: 35px;
     letter-spacing: -0.2px;
 }
 @mixin body1 {
-    font-family: 'Jost', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: $font-family;
+    font-size: $font-size-k;
+    font-weight: $font-weight-400;
     line-height: 23px;
-    color: #647196;
+    color: $oceannight;
 }
 @mixin body2 {
-    font-family: 'Jost', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-family: $font-family;
+    font-size:$font-size-o;
+    font-weight: $font-weight-400;
     line-height: 22px;
-    color: #ffffff;
+    color:$white;
 }
 @mixin body3 {
-    font-family: 'Jost', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight:$font-weight-600;
     line-height: 2px;
 }
 @mixin text-int{
-    font-family:'Jost', sans-serif ;
-    font-size: 13px;
-    font-weight: 700;
-    font-style: normal;
+    font-family:$font-family ;
+    font-size: $font-size;
+    font-weight: $font-weight-700;
+    font-style: $font-normal;
     line-height: 18.79;
     letter-spacing: -0.18;
-    text-align: center;
+    @include align-center;
     text-decoration: none;
-    color: #3A4374;
+    color: $softblue;
 }  

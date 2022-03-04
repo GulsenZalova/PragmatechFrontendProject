@@ -95,21 +95,21 @@ a {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-head h2 {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: -0.25px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-head p {
-  font-family: 'Jost', sans-serif;
-  font-size: 15px;
+  font-family: " 'Jost', sans-serif";
+  font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 #suggestions .feedback .feedback-item .feedback-item-type {
@@ -135,7 +135,7 @@ a {
 #suggestions .feedback .feedback-item .feedback-item-type .btn-1 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -148,7 +148,7 @@ a {
 #suggestions .feedback .feedback-item .feedback-item-type .btn-2 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -164,7 +164,7 @@ a {
 #suggestions .feedback .feedback-item .feedback-item-type .btn-3 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -197,7 +197,7 @@ a {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div h3 {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -236,8 +236,8 @@ a {
 }
 
 #suggestions .feedback .feedback-item .feedback-item-report div div p {
-  font-family: 'Jost', sans-serif;
-  font-size: 16px;
+  font-family: " 'Jost', sans-serif";
+  font-size: 15px;
   font-weight: 400;
   line-height: 23px;
   color: #647196;
@@ -374,7 +374,7 @@ a {
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info .group-info-int i a {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 13px;
   font-weight: 700;
   font-style: normal;
@@ -386,7 +386,7 @@ a {
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div h3 {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -397,8 +397,8 @@ a {
 }
 
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div p {
-  font-family: 'Jost', sans-serif;
-  font-size: 16px;
+  font-family: " 'Jost', sans-serif";
+  font-size: 15px;
   font-weight: 400;
   line-height: 23px;
   color: #647196;
@@ -408,7 +408,7 @@ a {
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-1 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -421,7 +421,7 @@ a {
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-2 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -437,7 +437,7 @@ a {
 #suggestions .feedback .feedback-info .feedback-info-groups .feedback-info-group .group-info div .btn-3 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -503,21 +503,21 @@ a {
 }
 
 #suggestions-empty .feedback .feedback-item .feedback-item-head h2 {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: -0.25px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 #suggestions-empty .feedback .feedback-item .feedback-item-head p {
-  font-family: 'Jost', sans-serif;
-  font-size: 15px;
+  font-family: " 'Jost', sans-serif";
+  font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 #suggestions-empty .feedback .feedback-item .feedback-item-type {
@@ -543,7 +543,7 @@ a {
 #suggestions-empty .feedback .feedback-item .feedback-item-type .btn-1 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -556,7 +556,7 @@ a {
 #suggestions-empty .feedback .feedback-item .feedback-item-type .btn-2 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -572,7 +572,7 @@ a {
 #suggestions-empty .feedback .feedback-item .feedback-item-type .btn-3 {
   width: 48px;
   height: 30px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   color: #4661E6;
@@ -605,7 +605,7 @@ a {
 }
 
 #suggestions-empty .feedback .feedback-item .feedback-item-report div h3 {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -644,8 +644,8 @@ a {
 }
 
 #suggestions-empty .feedback .feedback-item .feedback-item-report div div p {
-  font-family: 'Jost', sans-serif;
-  font-size: 16px;
+  font-family: " 'Jost', sans-serif";
+  font-size: 15px;
   font-weight: 400;
   line-height: 23px;
   color: #647196;
@@ -729,10 +729,20 @@ a {
   width: 825px;
   height: 600px;
   background-color: #FFFFFF;
+  margin-top: 20px;
+  padding-top: 200px;
+}
+
+#suggestions-empty .feedback .feedback-info .feedback-main .feedback-main-box img {
+  width: 129.64px;
+  height: 136.74px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  margin-left: 120px;
 }
 
 #suggestions-empty .feedback .feedback-info .feedback-main .feedback-main-box h1 {
-  font-family: 'Jost', sans-serif;
+  font-family: " 'Jost', sans-serif";
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -742,8 +752,8 @@ a {
 }
 
 #suggestions-empty .feedback .feedback-info .feedback-main .feedback-main-box p {
-  font-family: 'Jost', sans-serif;
-  font-size: 16px;
+  font-family: " 'Jost', sans-serif";
+  font-size: 15px;
   font-weight: 400;
   line-height: 23px;
   color: #647196;
@@ -762,8 +772,8 @@ a {
 }
 
 #suggestions-empty .feedback .feedback-info .feedback-main .feedback-main-info {
-  margin: 250px auto;
-  text-align: center;
+  margin: 0px auto;
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

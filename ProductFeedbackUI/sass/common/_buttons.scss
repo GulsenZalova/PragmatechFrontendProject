@@ -4,11 +4,11 @@
 @mixin btn-1{
     width: 48px;
     height: 30px;
-    color: white;
+    color: $white;
     border: none;
     border-radius: 10px;
-    color: #4661E6;
-    background-color: #F2F4FF;
+    color: $blue;
+    background-color: $ghostwhite;
     text-decoration: none;
     padding: 5px 10px;
     font-size: 13px
@@ -28,24 +28,24 @@
 }
 @mixin button1 {
     @include button;
-    background-color: #AD1FEA;
+    background-color: $violet;
 }
 @mixin button2 {
     @include button;
-    background-color: #4661E6;
+    background-color: $blue;
 }
 @mixin button3 {
     @include button;
-    background-color: #3A4374;
+    background-color: $softblue;
 }
 @mixin button4 {
     @include button;
-    background-color: #D73737;
+    background-color: $red;
 }
 @mixin button5 {
     width: 75.67px;
     height: 20px;
-    color: #647196;
+    color: $oceannight;
     border-radius: 10px;
 }
 @mixin button6 {
@@ -53,7 +53,7 @@
     height: 53px;
     background: #373F68;
     border-radius: 10px;
-    color: white;
+    color: $white;
 }
 // Buttons End
 // Button Hover Start

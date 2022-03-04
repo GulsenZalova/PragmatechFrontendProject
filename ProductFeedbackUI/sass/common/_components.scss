@@ -4,7 +4,7 @@
 
 @mixin page{
     @include flex-row;
-    margin: 0px auto ;
+    @include auto;
     @include just-center;
     padding-top:$padding-6x;
     background-color: $ghostwhite2;

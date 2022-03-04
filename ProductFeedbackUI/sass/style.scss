@@ -225,7 +225,14 @@
                width:$third-width;
                height:600px;
                background-color: $white;
+               margin-top: $margin-4x;
+               padding-top:200px;
                img{
+                   width:129.64px ;
+                   height:136.74px ;
+                   opacity: 0.5;
+                   margin-bottom: $margin-4x;
+                   margin-left: 120px;
                }
                h1{@include h1}
                p{@include body1}
@@ -234,12 +241,11 @@
             }
             }
             .feedback-main-info{
-                margin: 250px auto;
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
+                @include auto;
+                padding-top:$padding-10x; 
+                @include flex-column;
+                @include just-center;
+                @include align-center;
                 width:410px ;
                 height: 189px;
             }
