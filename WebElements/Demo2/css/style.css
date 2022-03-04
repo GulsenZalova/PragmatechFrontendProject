@@ -78,7 +78,8 @@ body {
   padding: 15px 35px;
   margin: 30px 30px;
   border: none;
-  color: lightgray;
+  background-color: #4f4fa0;
+  color: white;
 }
 
 .element-item:hover button {
@@ -90,4 +91,5 @@ body {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   background-color: #4f4fa0;
+  cursor: alias;
 }

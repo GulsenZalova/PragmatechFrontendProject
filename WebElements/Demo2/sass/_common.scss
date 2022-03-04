@@ -58,7 +58,8 @@ body{
     padding: $space-3x $space-7x;
     margin: $space-6x $space-6x;
     border: none;
-    color: lightgray;
+    background-color:darken($main-color,5%) ;
+    color: white;
 }
 .element-item:hover button{
     background-color:$main-color;
