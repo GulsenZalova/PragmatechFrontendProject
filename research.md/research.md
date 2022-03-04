@@ -48,4 +48,21 @@
     - Javascript(Node.js)
     - Ruby
 
+# Task 26-27 Fevral
+## Aşağıdakı suallarla bağlı araşdırma edərək research.md faylına əlavə edin
+
+### interpreter və compiler dillər arasındakı fərqləri haqqında araşdırma edərək öz anladığınız formada yazın
+    - İnterpreter dillər kodları addım-addım tərcümə etdiyi halda, compiler dillər bu işi bütövlükdə edir.
+    - İnterpreter dillərdə mənbə kodunu təhlil etmək daha az vaxt alır, amma ümumi icra müddəti uzundur. Compiler dillərdə isə mənbə kodunun təhlil edilməsi uzun vaxt aparsa da ümüumi icra sürətlidir.
+    - İnterpreter JavaScript, Python, Ruby kimi proqramlaşdırma dilləri tərəfindən istifadə edir, compiler isə C, C++, Java tərəfindən.
+
+### dəyişən və məlumat növləri arasındakı fərq nədir? Bunlar nə üçün istifadə olunur?
+    - Dəyişənlər məlumatların saxlanılması üçün konteynerlərdir, məlumat növləri isə həmin məlumatın növüdür. Məsələn əgər məlumat rəqəmdirsə onun məlumat növü number, sözdürsə string və s. 
+
+### hər dilin özünə məxsus məlumat növləri mövcuddur. Bu məlumat növlərin dillərə görə fərqlənməsinin səbəbləri sizcə nədir?
+
+### javascriptdə dəyişən təyin edilmək üçün əsas üç açar söz var . let,var,const. Bu açar sözlərin vəzifələri arasındakı fərqlər nələrdir?
+    - Hər üçün də dəyişən növüdür. Burada var global scope, let və const isə local scope xarakter daşımaqdadır. Yəni bu o demekdir var dəyisənində təyin etdiyimiz məlumatı istər globalda istərdə də lokalda təyin olunmasından asılı olmayaraq hər yerdə istifadə oluna bilir, həmçinin var dəyişənini dəfələrlə təyin etmək olmur. Let və const sadəcə 1 dəfə təyin etmək olur, həmçinin bu dəyişənlər qlobalda təyin edildikdə həm qlobalda, həm də lokalda istifadə edilə bilər. Əgər lokalda təyin olunub onu ancaq lokalda istifadə etmək olur. 
+
+### Proqramçı olaraq bir proqram yazarkən işi görmə addımlarımız necə olmalıdır?
 
