@@ -30,7 +30,7 @@
     height: $main-height/4;
     overflow: hidden;
     padding: $space-7x;
-    transition: all .4s ease;
+    transition: all .9s ease;
 }
 .elements-number span{
     font-size: $space-15x;
@@ -38,6 +38,7 @@
     display: inline-block;
     line-height: $space-15x;
     color: $third;
+    transition: all .9s ease;
 
 }
 .elements-items h1{
@@ -64,7 +65,7 @@ transition: all .3s ease;
 }
 .elements-items:hover span{
       bottom:$space-7x;
-      transition: all .5s ease;
+      transition: all .9s ease;
       cursor: pointer;
 }
 button:hover{

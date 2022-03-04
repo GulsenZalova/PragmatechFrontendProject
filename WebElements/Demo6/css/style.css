@@ -39,8 +39,8 @@
   height: 150px;
   overflow: hidden;
   padding: 35px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all .9s ease;
+  transition: all .9s ease;
 }
 
 .elements-number span {
@@ -49,6 +49,8 @@
   display: inline-block;
   line-height: 75px;
   color: #e9e9e9;
+  -webkit-transition: all .9s ease;
+  transition: all .9s ease;
 }
 
 .elements-items h1 {
@@ -78,8 +80,8 @@
 
 .elements-items:hover span {
   bottom: 35px;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all .9s ease;
+  transition: all .9s ease;
   cursor: pointer;
 }
 
