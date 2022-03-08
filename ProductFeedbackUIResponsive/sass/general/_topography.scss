@@ -14,6 +14,7 @@
     font-weight: $font-weight-700;
     line-height: 35px;
     letter-spacing: -0.2px;
+    color:$softblue;
 }
 @mixin body1 {
     font-family: $font-family;
@@ -21,6 +22,13 @@
     font-weight: $font-weight-400;
     line-height: 23px;
     color: $oceannight;
+}
+@mixin body2 {
+    font-family: $font-family;
+    font-size:$font-size-o;
+    font-weight: $font-weight-400;
+    line-height: 22px;
+    color:$oceannight;
 }
 @mixin text-int{
     font-family:$font-family ;

@@ -1,6 +1,8 @@
 @import "general/general";
 @import "common/common";
-
+body{
+    box-sizing: border-box;
+}
 #roadmap{
     width: $main-width;
     height:$main-height;
@@ -16,19 +18,30 @@
             button{@include nav-button }
         }
         .roadmap-main{
+            width: $third-width;
+            @include main;
             .header{
-                h4{}
-                span{}
+                h4{@include h4}
+                span{@include body2}
             }
             .roadmap-main-item{
                 .item-info{
+                    @include flex-column; 
+                    @include between;
+                    margin-top: 10px;
+                    width:350px;
+                    height:272px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
                     div{
                         i{}
-                        span{}
+                        span{@include body2}
                     }
-                    h4{}
+                    h4{@include h4}
                     p{}
-                    .btn3{}
+                    .btn-1{@include btn-1}
+                    .btn-2{@include btn-2}
+                    .btn-3{@include btn-3}
                     div{
                        i{} 
                        a{}

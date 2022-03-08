@@ -8,6 +8,9 @@
     padding-top:$padding-6x;
     background-color: $ghostwhite2;
 }
+@mixin main{
+   @include grid
+}
 @mixin nav-info {
     width: $third-width;
     height: 72px;

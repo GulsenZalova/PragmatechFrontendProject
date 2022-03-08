@@ -28,3 +28,8 @@
 @mixin auto {
     margin: 0px auto;
 }
+@mixin grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
