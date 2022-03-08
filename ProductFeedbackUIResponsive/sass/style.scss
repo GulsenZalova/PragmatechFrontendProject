@@ -2,5 +2,44 @@
 @import "common/common";
 
 #roadmap{
- background-color: red;
+    width: $main-width;
+    height:$main-height;
+    background: $ghostwhite2;
+    .roadmap-container{
+        @include page;
+        .roadmap-nav{
+            @include nav-info;
+            div{
+                a{}
+                h3{ @include h3}
+            }
+            button{@include nav-button }
+        }
+        .roadmap-main{
+            .header{
+                h4{}
+                span{}
+            }
+            .roadmap-main-item{
+                .item-info{
+                    div{
+                        i{}
+                        span{}
+                    }
+                    h4{}
+                    p{}
+                    .btn3{}
+                    div{
+                       i{} 
+                       a{}
+                    }
+                    div{
+                        i{}
+                        span{}
+                    }
+
+                }
+            }
+        }
+    }
 }

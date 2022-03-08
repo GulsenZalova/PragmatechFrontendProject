@@ -53,5 +53,61 @@ a {
 }
 
 #roadmap {
-  background-color: red;
+  width: 1440px;
+  height: 1368px;
+  background: #F7F8FD;
+}
+
+#roadmap .roadmap-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+  background-color: #F7F8FD;
+}
+
+#roadmap .roadmap-container .roadmap-nav {
+  width: 825px;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #3A4374;
+  border-radius: 10px;
+}
+
+#roadmap .roadmap-container .roadmap-nav div h3 {
+  font-family: " 'Jost', sans-serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  color: #FFFFFF;
+}
+
+#roadmap .roadmap-container .roadmap-nav button {
+  width: 158px;
+  height: 44px;
+  padding: 10px 30px;
+  color: #F7F8FD;
+  background-color: #AD1FEA;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
 }
