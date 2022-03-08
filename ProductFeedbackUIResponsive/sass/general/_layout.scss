@@ -1,0 +1,30 @@
+// // Layihənin eksizini hazırlamaq üçün lazım olan classlar 
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+@mixin between{
+    justify-content: space-between;
+}
+@mixin align-center {
+    text-align:center;
+}
+@mixin align-left{
+    text-align:left;
+}
+@mixin just-center{
+    justify-content: center;
+}
+@mixin margin($top,$bottom,$left,$right){
+    margin:$top $bottom $left $right;
+}
+@mixin padding($top,$bottom,$left,$right){
+    margin:$top $bottom $left $right;
+}
+@mixin auto {
+    margin: 0px auto;
+}

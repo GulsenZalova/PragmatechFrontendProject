@@ -1,0 +1,26 @@
+@mixin h4{
+    font-family: $font-family;
+    font-size: $font-size-dk;
+    font-style: $font-normal;
+    font-weight: $font-weight-700;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+}
+@mixin body1 {
+    font-family: $font-family;
+    font-size: $font-size-k;
+    font-weight: $font-weight-400;
+    line-height: 23px;
+    color: $oceannight;
+}
+@mixin text-int{
+    font-family:$font-family ;
+    font-size: $font-size;
+    font-weight: $font-weight-700;
+    font-style: $font-normal;
+    line-height: 18.79;
+    letter-spacing: -0.18;
+    @include align-center;
+    text-decoration: none;
+    color: $softblue;
+}
