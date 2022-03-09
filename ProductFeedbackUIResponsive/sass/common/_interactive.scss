@@ -1,13 +1,17 @@
 // Layihədə istifadə olunacaq bütün interaktiv elementlərin classları
 // İnteractive Elements 
 @mixin int{
-    width: 40px;
-    height: 53px;
+    display: flex;
+    flex-direction: row;
+    width: 69px;
+    height: 40px;
     background: #F2F4FE;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
     font-size: 13px;
+    padding-top:10px;
+    padding-left: 20px;
   
 }
 @mixin int-sort{
@@ -48,11 +52,11 @@
 }
 
 @mixin border-1{
-    border-top: 5px solid $softpink 
+    border-top: 10px solid $softpink 
 }
 @mixin border-2{
-    border-top: 5px solid $violet;
+    border-top: 10px solid $violet;
 }
 @mixin border-3{
-    border-top: 5px solid $mayablue;
+    border-top: 10px solid $mayablue;
 }

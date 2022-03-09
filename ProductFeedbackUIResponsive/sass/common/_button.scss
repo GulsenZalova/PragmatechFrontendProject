@@ -10,7 +10,8 @@
     background-color: $ghostwhite;
     text-decoration: none;
     padding: 5px 10px;
-    font-size: 13px
+    font-size: 13px;
+    margin-top: 20px;
 }
 @mixin btn-2{
     @include btn-1;

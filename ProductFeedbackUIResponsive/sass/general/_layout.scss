@@ -27,6 +27,7 @@
 }
 @mixin auto {
     margin: 0px auto;
+    margin-left: 150px;
 }
 @mixin grid{
     display: grid;
