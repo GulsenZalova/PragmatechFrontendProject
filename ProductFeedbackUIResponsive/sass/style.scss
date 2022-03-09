@@ -33,10 +33,11 @@ body{
                     height:272px;
                     background: #FFFFFF;
                     border-radius: 5px;
-                    div{
-                        i{}
-                        span{@include body2}
-                    }
+                    .icon-1{@include icon-1;}
+                    .icon-2{@include icon-2;}
+                    .icon-3{@include icon-3;} 
+                    span{@include body2}
+                    
                     h4{@include h4}
                     p{}
                     .btn-1{@include btn-1}
@@ -47,7 +48,11 @@ body{
                        a{}
                     }
                     div{
-                        i{}
+                        i{
+                        width:18px ;
+                        height:16px;
+                        color:$lightgray;
+                    }
                         span{}
                     }
 

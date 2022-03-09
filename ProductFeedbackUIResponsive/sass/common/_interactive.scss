@@ -28,3 +28,20 @@
     background: #4661E6;
     text-decoration: none;
 }
+@mixin icon{
+    width:8px;
+    height:8px; 
+    margin-right: 10px
+}
+@mixin icon-1{
+    @include icon;
+    color:$softpink;
+}
+@mixin icon-2{
+    @include icon;
+    color:$violet;
+}
+@mixin icon-3{
+    @include icon;
+    color:$mayablue;
+}
