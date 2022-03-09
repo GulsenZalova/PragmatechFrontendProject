@@ -11,9 +11,9 @@
         @include page;
         .roadmap-nav{
             @include nav-info;
-            div{
-                a{}
-                h3{ @include h3}
+            div{i{color: #FFFFFF;font-size: 13px}
+                a{@include body1};
+                h3{ @include h3;margin-top:10px}
             }
             button{@include nav-button }
         }
@@ -49,9 +49,8 @@
                     .btn-3{@include btn-3}
                     .int-icon{
                         margin-top: 30px;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
+                        @include flex-row;
+                        @include between;
                         text-align: center;
                         .int{
                             @include int ;

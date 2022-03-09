@@ -18,6 +18,7 @@
     @include between;
     background-color:$softblue;
     border-radius: $radius;
+    padding:30px;
 }
 @mixin nav-info-item {
     @include flex-row;
