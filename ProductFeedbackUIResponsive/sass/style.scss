@@ -1,6 +1,6 @@
 @import "general/general";
 @import "common/common";
-body{
+*{
     box-sizing: border-box;
 }
 #roadmap{
@@ -25,6 +25,11 @@ body{
                 span{@include body2}
             }
             .roadmap-main-item{
+                width:350px;
+                height:272px;
+                .border-1{@include border-1;}
+                .border-2{@include border-2;}
+                .border-3{@include border-3;}
                 .item-info{
                     @include flex-column; 
                     @include between;
@@ -32,12 +37,15 @@ body{
                     width:350px;
                     height:272px;
                     background: #FFFFFF;
-                    border-radius: 5px;
+                    border-radius: 5px; 
+                   .border-1{@include border-1;}
+                   .border-2{@include border-2;}
+                   .border-3{@include border-3;}
+                    padding: 10px;
                     .icon-1{@include icon-1;}
                     .icon-2{@include icon-2;}
                     .icon-3{@include icon-3;} 
                     span{@include body2}
-                    
                     h4{@include h4}
                     p{}
                     .btn-1{@include btn-1}
@@ -55,7 +63,6 @@ body{
                     }
                         span{}
                     }
-
                 }
             }
         }

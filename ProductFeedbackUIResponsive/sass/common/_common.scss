@@ -13,7 +13,7 @@
 }
 @mixin nav-info {
     width: $third-width;
-    height: 72px;
+    height: 113px;
     @include flex-row;
     @include between;
     background-color:$softblue;

@@ -29,9 +29,10 @@
     text-decoration: none;
 }
 @mixin icon{
-    width:8px;
-    height:8px; 
-    margin-right: 10px
+    display:inline-block;
+    width:5px;
+    height:5px; 
+    margin-right:10px
 }
 @mixin icon-1{
     @include icon;
@@ -44,4 +45,14 @@
 @mixin icon-3{
     @include icon;
     color:$mayablue;
+}
+
+@mixin border-1{
+    border-top: 5px solid $softpink 
+}
+@mixin border-2{
+    border-top: 5px solid $violet;
+}
+@mixin border-3{
+    border-top: 5px solid $mayablue;
 }
