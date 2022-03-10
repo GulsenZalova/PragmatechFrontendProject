@@ -78,3 +78,17 @@
 - ; işarə bir kodun sonuna qoyulduqda artıq digər sətirə keçilərək orada kod yazılacağını bildirir. Əgər kodun sonun bu işarə qoyulmadında ardınca başqa bir kod yazılarsa, proqram onu tək sətir kimi qəbul edəcək və kod işləməyəcək.
 ### Javascript-də comment yazmaq üçün neçə üsul var.
 - Javascriptdə kod yazmaq üçün 2 üsul vardır: Əgər yazılacaq kod 1 sətirdən ibarətdirsə, o zaman 2 sləş (//) işarətinin ardınca comment yazılır. Əgər kod bir neçə sətirdən ibarətdirsə /**/ ifadəsinin içərisində yazılır.
+### let,var,const ifadələri arasında fərqlər nədir?
+- Var qlobal scope-a malik olduğu üçün ondan həm funksiyanın daxilində, həm də varicində istifadə eymək olur.
+- Let lokal scope-a malik olduğu üçün onu lokalda funksiya daxilində təyin etdikdə funksiyadan kənarda istifadə edə bilmirik, amma funksiya xaricində təyin etmişiksə istənilən yerdə istifadə etmək olar. Həmçinin let üçün bir dəyişən təyin etdikdə sonra o dəyişəni dəyişmək olur.
+- Const let kimi local scpoe-a malikdir. Const üçün dəyişən bir dəfə təyin olunuur və da sonra dəyişdirilmir.
+### dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+- Javascritdə dəyişən adlarının yazılmasında hərflərdən, rəqəmlərdən, $ və _ işarələrindən istifadə olunur.
+- Dəyişənin rəqəm ilə başlaya bilməz.
+- Adlandırmada CamelCase adlandırmadan istifadə oluna bilər, bu ilk hərfin kiçik sonrakı hərfilərin böyük yazılması ilə edilən adlandırmadır.
+- Adlandırma javascriptdin xüsusi keywordlərindən istifdə etmək olmaz.(məsələn:let, const və.s).
+- Kepapcase istifaədsi də yalnışdır.(məsələn: one-page şəklində) 
+### let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
+- Yaddaşdan silinəcək.
+### Ümumiyyətlə sizə görə bir məlumat növünü başqa məlumat növünə çevirmək nəyə lazımdır
+- istifadəçidən hər hansı bir string tipli məlumat daxil edilməsi istənilə bilər, amma səhvliklə number tipli məlumat daxil edilərsə avtomatik onu stirngə çevirər.
