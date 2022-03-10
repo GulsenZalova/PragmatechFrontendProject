@@ -74,3 +74,7 @@
 - Script tagları daha kiçikölçülü javascript kodları üçün, xaricdəki javascript faylının import olunması isə böyükölçülü fayllar üçün əlverişlidir. 
 ### Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir.
 - Bilmədim.....
+### ";" hansı hallarda istifadə edilir?
+- ; işarə bir kodun sonuna qoyulduqda artıq digər sətirə keçilərək orada kod yazılacağını bildirir. Əgər kodun sonun bu işarə qoyulmadında ardınca başqa bir kod yazılarsa, proqram onu tək sətir kimi qəbul edəcək və kod işləməyəcək.
+### Javascript-də comment yazmaq üçün neçə üsul var.
+- Javascriptdə kod yazmaq üçün 2 üsul vardır: Əgər yazılacaq kod 1 sətirdən ibarətdirsə, o zaman 2 sləş (//) işarətinin ardınca comment yazılır. Əgər kod bir neçə sətirdən ibarətdirsə /**/ ifadəsinin içərisində yazılır.
