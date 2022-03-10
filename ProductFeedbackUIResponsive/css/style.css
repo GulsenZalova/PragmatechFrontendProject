@@ -52,6 +52,28 @@ a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 576px) {
+  .roadmap-nav {
+    width: 375px;
+    height: 100px;
+  }
+  .roadmap-main-item {
+    width: 327px;
+    height: 233px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .roadmap-nav {
+    width: 689px;
+    height: 113px;
+  }
+  .roadmap-main-item {
+    width: 223px;
+    height: 251px;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

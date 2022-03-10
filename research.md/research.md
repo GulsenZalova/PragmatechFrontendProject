@@ -66,3 +66,11 @@
 
 ### Proqramçı olaraq bir proqram yazarkən işi görmə addımlarımız necə olmalıdır?
 
+# Task 5-6 Mart
+## Javascript
+### Javascript kodları neçə formada yazıla bilər?
+- Javascript kodları həm script tag vasitəsilə html daxilində (ən aşağıda yazılmalıdır ki, oradakı kodlar oxunub html-ə tədbiq oluna bilsin), həm də ayrı bir .js uzantılı fayl daxilində yazıla bilər. Kənarda yazılan fayl sonradan link vasitəsilə html-də head içərində import olunur. Bunun üçün script tag-da src hissəsində həmin faylın yeri göstərilməlidir.
+### Javascript kodlarının script tagları daxilində yazmaqla ayrı fayl formatında yazıb import etmek arasında nə fərq var?
+- Script tagları daha kiçikölçülü javascript kodları üçün, xaricdəki javascript faylının import olunması isə böyükölçülü fayllar üçün əlverişlidir. 
+### Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir.
+- Bilmədim.....
