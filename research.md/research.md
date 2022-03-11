@@ -75,9 +75,9 @@
 ### Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir.
 - Bilmədim.....
 ### ";" hansı hallarda istifadə edilir?
-- ; işarə bir kodun sonuna qoyulduqda artıq digər sətirə keçilərək orada kod yazılacağını bildirir. Əgər kodun sonun bu işarə qoyulmadında ardınca başqa bir kod yazılarsa, proqram onu tək sətir kimi qəbul edəcək və kod işləməyəcək.
+- ; işarə bir kodun sonuna qoyulduqda artıq digər sətirə keçilərək orada kod yazılacağını bildirir. Əgər kodun sonun bu işarə qoyulmadıqda ardınca başqa bir kod yazılarsa, proqram onu tək sətir kimi qəbul edəcək və kod işləməyəcək.
 ### Javascript-də comment yazmaq üçün neçə üsul var.
-- Javascriptdə kod yazmaq üçün 2 üsul vardır: Əgər yazılacaq kod 1 sətirdən ibarətdirsə, o zaman 2 sləş (//) işarətinin ardınca comment yazılır. Əgər kod bir neçə sətirdən ibarətdirsə /**/ ifadəsinin içərisində yazılır.
+- Javascriptdə comment yazmaq üçün 2 üsul vardır: Əgər yazılacaq kod 1 sətirdən ibarətdirsə, o zaman 2 sləş (//) işarətinin ardınca comment yazılır. Əgər kod bir neçə sətirdən ibarətdirsə /**/ ifadəsinin içərisində yazılır.
 ### let,var,const ifadələri arasında fərqlər nədir?
 - Var qlobal scope-a malik olduğu üçün ondan həm funksiyanın daxilində, həm də varicində istifadə eymək olur.
 - Let lokal scope-a malik olduğu üçün onu lokalda funksiya daxilində təyin etdikdə funksiyadan kənarda istifadə edə bilmirik, amma funksiya xaricində təyin etmişiksə istənilən yerdə istifadə etmək olar. Həmçinin let üçün bir dəyişən təyin etdikdə sonra o dəyişəni dəyişmək olur.
