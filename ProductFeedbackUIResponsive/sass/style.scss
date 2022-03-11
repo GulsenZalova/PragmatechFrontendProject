@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #roadmap{
-    width: $main-width;
+    max-width:100%;
     height:$main-height;
     background: $ghostwhite2;
     .roadmap-container{
