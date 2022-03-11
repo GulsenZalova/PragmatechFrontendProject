@@ -90,5 +90,17 @@
 - Kepapcase istifaədsi də yalnışdır.(məsələn: one-page şəklində) 
 ### let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
 - Yaddaşdan silinəcək.
+### 5 dəyəri yaddasa yazılarkən 2-li say sisteminə çevrilir və ona görə yaddaşda tutduğu yer hesablanır.Bəs 5.34 dəyərinin yaddaşda tutduğu yeri necə hesablamaq olar?
+- 5.34 dəyəri əvvəlcə yuvarlaqlaşdırılır, daha sonra 2lik say sistem çevrilir və yaddaşda yer tutur.
+### undefined, NaN və null dəyərlərinin yaddaşda nə qədər yer tutduğunu araşdırın
+- Hər hansı bir dəyərə sahib olmadıqlarına görə yaddaşda yer tutmayacaqlar.
+### let a; bu formada dəyişən təyin etmişəm.
+- Cavab tapmadım.
 ### Ümumiyyətlə sizə görə bir məlumat növünü başqa məlumat növünə çevirmək nəyə lazımdır
 - istifadəçidən hər hansı bir string tipli məlumat daxil edilməsi istənilə bilər, amma səhvliklə number tipli məlumat daxil edilərsə avtomatik onu stirngə çevirər.
+### Type Conversion necə formada həyata keçirilir?
+- Type Conversion 3 formada həyata keçirilir.
+### Type Conversion metodlarının siyahısını çıxarın.
+- To string(daxil olan dəyəri stringə çevirir)
+- To number(daxil olan dəyəri)
+- To boolean(daxil olan dəyəri booleanə çevirir, yənu true və ya false olaraq göstərir).
