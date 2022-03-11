@@ -54,10 +54,10 @@ a {
 
 @media only screen and (max-width: 576px) {
   .roadmap-main-items:nth-child(2) .roadmap-main-item {
-    border-top: 5px solid green;
+    border-top: 5px solid #F49F85;
   }
   .roadmap-main-items:nth-child(2) .icon-1 {
-    background-color: red;
+    background-color: #F2F4FF;
   }
   .roadmap-main-items:nth-child(2) {
     display: none;
@@ -89,10 +89,10 @@ a {
 
 @media (min-width: 576px) and (max-width: 768px) {
   .roadmap-main-items:nth-child(2) .roadmap-main-item {
-    border-top: 5px solid green;
+    border-top: 5px solid #F49F85;
   }
   .roadmap-main-items:nth-child(2) .icon-1 {
-    background-color: red;
+    background-color: #F2F4FF;
   }
   .roadmap-main-items:nth-child(2) {
     display: none;

@@ -2,10 +2,10 @@
 @media only screen and (max-width:576px){
     .roadmap-main-items:nth-child(2){
       .roadmap-main-item{
-          border-top: 5px solid green;
+          border-top: 5px solid $softpink;
       }
       .icon-1{
-          background-color: red;
+          background-color: $ghostwhite;
       }
    }
    .roadmap-main-items:nth-child(2){
@@ -33,10 +33,10 @@
 @media  (min-width:576px) and (max-width:768px){
     .roadmap-main-items:nth-child(2){
        .roadmap-main-item{
-           border-top: 5px solid green;
+        border-top: 5px solid $softpink;
        }
        .icon-1{
-           background-color: red;
+        background-color: $ghostwhite;
        }
     }
     .roadmap-main-items:nth-child(2){
