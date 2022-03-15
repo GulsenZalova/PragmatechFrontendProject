@@ -1,0 +1,1 @@
+// verilən 4 ədədi böyükdən kiçiyə doğru ekrana çap edən program yazın

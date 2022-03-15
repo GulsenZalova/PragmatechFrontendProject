@@ -1,0 +1,1 @@
+// verilən x ədədinin rəqəmlərini ekrana çap edən proqram yazın
