@@ -104,3 +104,40 @@
 - To string(daxil olan dəyəri stringə çevirir)
 - To number(daxil olan dəyəri)
 - To boolean(daxil olan dəyəri booleanə çevirir, yənu true və ya false olaraq göstərir).
+
+
+#Task 17-18 Mart
+## Understanding Syntax and Code Structure in JavaScript
+### Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?
+- 
+### Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?
+- 
+### let StudentName; let studentName; let studentname yazılışları arasında Javascript üçün hər hansı fərq varmı? Qısacası Javascript Case Sensitive dildir?
+- 
+### Javascriptdə kod yazarkən indentation hansı hallarda istifadə olunur və mən kod yazarkən indentation istifadə etməyə məcburammı?
+- 
+## Primitive and Reference data types?
+### let x=5; kodlarının v8engine tərəfindən tərcümə edilərək maşın dilinə çevrilmə prosesini necə təsəvüür edirsiniz?
+- 
+### primitive və reference data tipləri deyə iki kategoriyaya ayrılma səbəbi nə ola bilər?
+- 
+### bu iki tip arasında fərqli xüsusiyyətlər nədir?
+- 
+### bu data tiplərin yaddaşdakı yeri ilə əlaqədar senarilərinizi yazın. Yəni kod v8 enginə-nə ötürüldüyü zaman o kodun başına nə iş gəlir?
+- 
+### data tiplərin bu formada iki kategoriyaya ayrılması sadəcə javascript dilinə xas xüsusiyyətdir yoxsa digər dillərdə də eyni yanaşma mövcuddur mu?
+- 
+### Bu mövzunu öyrənmək proqramçı olaraq sizə nə qata bilər? Yəni bu mövzunu qavramağınız sizə nə fayda verəcək?
+## NaN, null, undefined in Javascript
+### Bu tiplər başqa hansı dillərdə mövcuddur?
+- 
+### NaN null və undefined bunlardan hansı data tipdir və növləri nədir? Primitive yoxsa reference tip olub olmadığı haqqında nə deyə bilərsiz?
+- 
+### Type Casting metodlarından istifadə edərək bu dəyərləri çevirəndə hansı nəticələr əldə edildiyini analiz edin və bunun səbəblərini araşdırın
+- 
+## Expressions and operators
+### expression deyiləndə nə başa düşməyim lazımdır?
+- 
+### operator və expression arasında fərqlər nələrdir?
+- 
+
