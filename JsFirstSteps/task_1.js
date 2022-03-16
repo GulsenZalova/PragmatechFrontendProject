@@ -11,3 +11,4 @@
 // }else{
 //     alert(" Daxil edilən a ədədi c ədədinə daha yaxındır. ")
 // }
+
