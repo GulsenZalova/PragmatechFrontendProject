@@ -10,7 +10,7 @@ let b_y=prompt(" b nöqtəsinin Oy oxu üzrə koordinantı");
 let c_x=prompt(" c nöqtəsinin Ox oxu üzrə koordinantı");
 let c_y=prompt(" c nöqtəsinin Oy oxu üzrə koordinantı");
 
-let mesafe_ac = Math.pow($a_x-c_x, 2) + Math.pow(a_y-c_y, 2);
+let mesafe_ac = Math.pow(a_x-c_x, 2) + Math.pow(a_y-c_y, 2);
 mesafe_ac=Math.sqrt(mesafe_ac);
 console.log(mesafe_ac);
 
@@ -19,7 +19,9 @@ mesafe_ab=Math.sqrt(mesafe_ab);
 console.log(mesafe_ab);
 
 if(mesafe_ab > mesafe_ac){
-alert(`C(${c_x};${c_y}) nöqtəsi A(${a_x};${ a_y} nöqtəsinə daha yaxındır. `)
-}else{
+alert(`C(${c_x};${c_y}) nöqtəsi A(${a_x};${ a_y}) nöqtəsinə daha yaxındır. `)
+}else if(mesafe_ab < mesafe_ac){
     alert(`B(${b_x};${b_y}) nöqtəsi A(${a_x};${a_y}) nöqtəsinə daha yaxındır. `)
+}else if(mesafe_ab == mesafe_ac){
+    alert(`B(${b_x};${b_y}) və C(${c_x};${c_y}) nöqtəsi A(${a_x};${a_y}) nöqtəsi ilə eyni məsafədədir `)
 }
