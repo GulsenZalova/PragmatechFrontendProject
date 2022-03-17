@@ -5,7 +5,6 @@ let b=prompt("Zəhmət olmasa b ədədini daxil edin: ");
 let c=prompt("Zəhmət olmasa c ədədini daxil edin: ");
 let c_a=(Number(c)-Number(a));
 let c_b=(Number(c)-Number(b));
-let b_a=(Number(b)-Number(c));
 
 if (c_a > c_b){
     alert(`Daxil edilən ${b} ədədi ${c} ədədinə daha yaxındır.`)
