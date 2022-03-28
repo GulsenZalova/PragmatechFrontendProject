@@ -10,3 +10,5 @@
 //expected output
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
+
+// console.log("Ad: " + students["adlar"].names[0] + ", Soyad: " + students[1][1] +", Yaş: " + students[2][1] )
