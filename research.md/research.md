@@ -116,15 +116,12 @@
 
 ## Function in Javascript
 ### Function necə formada təyin olunur?
+- 2 formada: parametrli və parametrsiz
 ### Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?
+- Bəzi funksiyalarda hər hansı müxtəlif arqumentlərin daxil edilməsinə ehtiyac duyula bilər, bu zaman parametrli funksiya təyin olunur.
 ### function scope və global scope arasında fərqlər nədir?
 ### function ramdə necə yer tutur?
 
-## Növbəti dərsin mövzuları üçün araşdırma sualları
 
-### Javascript kodlarının arxa planda işləmə prinsipi necədir?
-### Allocate memory-use memory- release memory ifadələri nə deməkdir?
-### Static allocation vs dynamic allocation
-### garbage collection nədir?
-### hoisting nədir?
-### scope və hoisting ifadələri arasında fərq nədir?
+
+
