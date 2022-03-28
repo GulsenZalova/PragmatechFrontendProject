@@ -1,3 +1,4 @@
+'use strict';
 let names = ['Eli', 'Ehmed', 'Sara', 'Sevda', 'Qurban'];
 let surnames = ['Piriyev', 'Memmedov', 'Qurbanova', 'Ezizova', 'Sadiqzade'];
 let ages = [23, 34, 40, 58, 60];
