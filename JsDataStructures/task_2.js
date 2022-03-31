@@ -10,5 +10,5 @@
 
 
 // for(let i=0; i<5; i++){
-//         console.log("Ad: " + names[i] + ", Soyad: " + surnames[i] +", Yaş: " + ages[i])
+//         console.log("Ad: " + students[0][i] + ", Soyad: " + students[1][i] +", Yaş: " + students[2][i])
 // }
