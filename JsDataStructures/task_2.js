@@ -8,5 +8,7 @@ let students = [names, surnames, ages]
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
 
-console.log("Ad: " + students[0][0] + ", Soyad: " + students[1][0] +", Yaş: " + students[2][0] )
-console.log("Ad: " + students[0][1] + ", Soyad: " + students[1][1] +", Yaş: " + students[2][1] ) 
+
+// for(let i=0; i<5; i++){
+//         console.log("Ad: " + names[i] + ", Soyad: " + surnames[i] +", Yaş: " + ages[i])
+// }

@@ -1,10 +1,10 @@
-"use strict";
+// "use strict";
 
 // (function() {
 //  let i=0;
 //  i++;
 //  console.log(i);
-//  if(i<100){   
+//  if(i<100){  
 //  }
 // })()
 
