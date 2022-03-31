@@ -1,11 +1,13 @@
 // "use strict";
 
 // (function() {
-//  let i=0;
-//  i++;
-//  console.log(i);
-//  if(i<100){  
+//  let i=1;
+//  if(i<100){ 
+//   i++;
+//   console.log(i);
+//   return i
 //  }
+//  console.log(arguments.callee(i))
 // })()
 
   // sadəcə burda kod yazmağınıza icaze verilir
