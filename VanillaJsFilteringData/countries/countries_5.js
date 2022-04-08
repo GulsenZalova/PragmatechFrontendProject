@@ -1,4 +1,4 @@
-
+"use strict";
 // Bütün ölkələrin şəhər saylarının olduğu objecti return edən funksiya yazın .Nümunə {"Azerbaijan":70,"Turkey":300}
 // countries = {
 //     Afghanistan: [

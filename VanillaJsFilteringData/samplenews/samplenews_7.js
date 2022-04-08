@@ -1,3 +1,4 @@
+"use strict";
 /*Mətn daxilindən uzunluğu 40-50 xarakter arasında olan təsadüfi mətni return edən funksiya yazın
 Seçilən mətn uzunluğu sözü bölürsə o sözü silməlisiniz.Məsələn seçilən mətnin sonu developers sözünün deve hissəsində bitirsə developers sözü silinməlidir */
 

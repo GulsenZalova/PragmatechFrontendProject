@@ -1,3 +1,4 @@
+"use strict";
 // Sadəcə ölkə adlarının olduğu array-ı return edən funksiya yazın
 // let countries = {
 //     Afghanistan: [
