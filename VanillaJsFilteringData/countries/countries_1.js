@@ -45,8 +45,23 @@
     
 //     ],
 // }
+
+// 1ci Üsul
 // function showCountryName(){
 //     let keys=Object.keys(countries);
 //     console.log(keys)
 // }
+// showCountryName() 
+
+
+
+// 2ci Üsul
+// function showCountryName(){
+//     let arr=[]
+//     for(let i in countries){
+//         arr.push(i)
+//     }
+//     return console.log(arr)
+// }
 // showCountryName()
+
