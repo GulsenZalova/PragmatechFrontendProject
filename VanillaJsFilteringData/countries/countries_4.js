@@ -21,7 +21,7 @@ countries = {
         "Batna City",
         "Tlemcen"
     ],
-    ZAndorra: [
+    ZAndorrasdsdfff: [
         "Andorra la Vella",
         "Canillo",
         "Encamp",
@@ -32,9 +32,9 @@ countries = {
         "Ordino",
         "Santa Coloma",
         "Sispony",
-        "Soldeu"
+        "Soldeu",
     ],
-    XAngola: [
+    XAngolabdsxkrishüeofjsdshhu: [
         "Ambriz",
         "Benguela",
         "Cabinda",
@@ -46,20 +46,22 @@ countries = {
     ],
 }
 
-function countryName(){
-    let showCity=[]
-    let country=Object.keys(countries)
-    let name=Object.entries(countries)
-    let vals=Object.values(countries)
-    for(let i=0;i<vals.length; i++){
-     showCity.push(country[i].length)
-     showCity.sort=(function(a,b){return (a-b)})
-    if(country[i].length===showCity[0]){
-        let showName=(name[i][1])
-        let arr=[]
-        arr.push(showName)
-        return console.log(arr[0])
+
+function countryLongName(){
+    let keys=Object.keys(countries);
+    let vals=Object.values(countries);
+    let all=Object.entries(countries)
+    let longName=0;
+    let maxValue;
+    let showCity;
+    for(let i=0;i<all.length; i++){
+        if(all[i][0].length > longName){
+            longName=all[i][0].length;
+            maxValue=all[i][0]
+            showCity=all[i][1]
+        }
+        
     }
-    }
+    return console.log(showCity.toString())
 }
-countryName()
+countryLongName()
