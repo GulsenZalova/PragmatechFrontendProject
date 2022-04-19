@@ -154,7 +154,7 @@
 - Cavab: 
 ## Sual 10
 - JavaScript-də "==" və "===" operatorları arasında hansı fərqlər var?
-- Cavab: 
+- Cavab: == sadəcə dəyərlərin bərabərliyini yoxladığı halda, === eyni zamanda tiplərin də bərabərliyini yoxlayır
 ## Sual 11
 - JavaScript-də typeof operatorundan nə üçün istifadə olunur?
 - Cavab: 
