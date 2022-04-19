@@ -129,31 +129,31 @@
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
 - Cavab: 
 ## Sual 2
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- DOM Traversing nədir? Nümunələr ilə izah edin.
 - Cavab: 
 ## Sual 3
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- DOM Element və DOM Node arasındakı fərq nədir?
 - Cavab: 
 ## Sual 4
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır?
 - Cavab: 
 ## Sual 5
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır?
 - Cavab: 
 ## Sual 6
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS standartlarını kim təyin edir?
 - Cavab: 
 ## Sual 7
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-də vmin və vmax harada istifadə olunur?
 - Cavab: 
 ## Sual 8
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript nədir və necə işləyir? 
 - Cavab: 
 ## Sual 9
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Event Loop nədir?
 - Cavab: 
 ## Sual 10
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də "==" və "===" operatorları arasında hansı fərqlər var?
 - Cavab: 
 ## Sual 11
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
