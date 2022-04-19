@@ -246,31 +246,34 @@
 - <meter> teqi ilə <progress> teqi bir-birindən nə ilə fərqlənir?
 - Cavab: 
 ## Sual 41
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- SVG və Canvas HTML5 elementləri arasında hansı fərqlər var?
 - Cavab: 
 ## Sual 42
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML5-də Microdata nədir?
 - Cavab: 
 ## Sual 43
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Formlar üçün HTML5 tərəfindən təmin edilən yeni input növləri hansılardır və nə işə yarayır?
 - Cavab: 
 ## Sual 44
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML5-də Media elementlərindəki yeni teqlər hansılardır? 
 - Cavab: 
+## Sual 45
+- HTML5-də Web Worker-lər nədir? 
+- Cavab:     
 ## Sual 46
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML5-də manifest faylı nədir?
 - Cavab: 
 ## Sual 47
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Bir dəyişən yaddaşda harada saxlanılır?
 - Cavab:
 ## Sual 48
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də niyə həm tək, həm də cüt dırnaq var?
 - Cavab:
 ## Sual 49
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-in başqa dillərdən fərqi nədir?
 - Cavab:
 ## Sual 50
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript məlumatları yaddaşda necə saxlayır?
 - Cavab:
 ## Sual 51
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
