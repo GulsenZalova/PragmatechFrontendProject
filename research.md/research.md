@@ -276,34 +276,34 @@
 - JavaScript məlumatları yaddaşda necə saxlayır?
 - Cavab:
 ## Sual 51
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Dəyişənlərdən nə üçün istifadə edirik?
 - Cavab:
 ## Sual 52
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Null və undefined arasındakı fərqlər nədir?
 - Cavab:
 ## Sual 53
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Niyə JavaScript kimi bir dil yaratma ehtiyacı hiss ediblər? Bünövrəsi hansı mərhələdən başlayıb və bu günə kimi hansı mərhələlərdən keçib?
 - Cavab:
 ## Sual 54 
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Layihənin bütün brauzerlərə uyğun hala gətirilməsi üçün diqqət olunması gərəkən məqamlar hansılardır?
 - Cavab:
 ## Sual 55
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-dən istifadə etməyin üstünlükləri nələrdir?
 - Cavab:
 ## Sual 56
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-i veb səhifəyə necə daxil etmək olar?
 - Cavab:
 ## Sual 57
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-də vh/vw (viewport height/ viewport width) nədir?
 - Cavab:
 ## Sual 58
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Reset və normalize CSS arasında hansı fərqlər var?
 - Cavab:
 ## Sual 59
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Veb səhifəni müxtəlif brauzerlərdə yoxlamaq vacibdirmi?
 - Cavab:
 ## Sual 60
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Adaptiv dizayn və responsiv dizayn arasında hansı fərqlər var?
 - Cavab:
 
 
