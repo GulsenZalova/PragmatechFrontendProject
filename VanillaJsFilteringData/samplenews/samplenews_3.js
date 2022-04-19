@@ -8,3 +8,4 @@
 //     console.log(sampleNews.split(".").length-1)
 // }
 // sentenceFind()
+

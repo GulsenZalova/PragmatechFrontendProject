@@ -123,5 +123,189 @@
 ### function ramdə necə yer tutur?
 
 
+# 16-17 aprel task
+
+## Sual 1
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 2
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 3
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 4
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 5
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 6
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 7
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 8
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 9
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 10
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 11
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 12
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 13
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 14
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:  
+## Sual 15
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 16
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 17
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 18
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 19
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 20
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 21
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 22
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 23
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 24
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 25
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 27
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 28
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 29
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 30
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 31
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 32
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 33
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 34
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 35
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 36
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 37
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 38
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 39
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 40
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 41
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 42
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 43
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 44
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 46
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab: 
+## Sual 47
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 48
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 49
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 50
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 51
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 52
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 53
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 54 
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 55
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 56
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 57
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 58
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 59
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+## Sual 60
+- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Cavab:
+
+
+
+
+
+
+
+
 
 
