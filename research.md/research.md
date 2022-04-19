@@ -169,7 +169,7 @@
 - Cavab:  
 ## Sual 15
 - JavaScript-də setTimeout() metodunun istifadəsi nədir?
-- Cavab: 
+- Cavab: JavaScript-də setTimeout() metodu əvvəlcədən müəyyən olunmuş vaxtdan sonra kod blokunu icra edir. setTimeout() metodu yalnız bir dəfə yerinə yetirir.
 ## Sual 16
 - JavaScript-də setInterval() metodunun istifadəsi nədir?
 - Cavab: 
