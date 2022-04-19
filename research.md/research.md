@@ -154,10 +154,10 @@
 - Cavab: 
 ## Sual 10
 - JavaScript-də "==" və "===" operatorları arasında hansı fərqlər var?
-- Cavab: == sadəcə dəyərlərin bərabərliyini yoxladığı halda, === eyni zamanda tiplərin də bərabərliyini yoxlayır
+- Cavab: JavaScript-də "==" sadəcə dəyərlərin bərabərliyini yoxladığı halda, "==="eyni zamanda tiplərin də bərabərliyini yoxlayır.
 ## Sual 11
 - JavaScript-də typeof operatorundan nə üçün istifadə olunur?
-- Cavab: 
+- Cavab: - JavaScript-də typeof operatoru verilən məlumatın tipini müəyyənləşdirmək üçün istifadə olunur.
 ## Sual 12
 - JavaScript-i kim yaradıb?
 - Cavab: 
