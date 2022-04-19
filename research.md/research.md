@@ -154,7 +154,7 @@
 - Cavab: 
 ## Sual 10
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
-- Cavab: 
+- Cavab: == sadəcə dəyərlərin bərabərliyini yoxladığı halda, === eyni zamanda tiplərin də bərabərliyini yoxlayır
 ## Sual 11
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
 - Cavab: 
