@@ -216,34 +216,34 @@
 - İki və ya daha çox massivi necə birləşdirmək olar?
 - Cavab: 
 ## Sual 31
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də void elementlər hansılardır?
 - Cavab: 
 ## Sual 32
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML teqləri və elementləri eyni şeydir?
 - Cavab: 
 ## Sual 33
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də teqlər və atributlar nədir?
 - Cavab: 
 ## Sual 34
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Veb səhifəyə audio və ya videonu necə daxil edə bilərik?
 - Cavab: 
 ## Sual 35
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Inline və block elementlərinə hansı misallar göstərə bilərsiniz?
 - Cavab: 
 ## Sual 36
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- <figure> teqi ilə <img> teqi bir-birindən nə ilə fərqlənir?
 - Cavab: 
 ## Sual 37
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də atributlar nədir?
 - Cavab: 
 ## Sual 38
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- <datalist> teqi ilə <select> teqi arasında hansı fərqlər var?
 - Cavab: 
 ## Sual 39
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də semantik elementlər nədir?
 - Cavab: 
 ## Sual 40
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- <meter> teqi ilə <progress> teqi bir-birindən nə ilə fərqlənir?
 - Cavab: 
 ## Sual 41
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
