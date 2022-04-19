@@ -186,31 +186,34 @@
 - JSON-un sintaksis qaydaları hansılardır?
 - Cavab: 
 ## Sual 21
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də isNaN() nədir?
 - Cavab: 
 ## Sual 22
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Veb səhifənin məzmununu necə çap etmək olar?
 - Cavab: 
 ## Sual 23
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də isFinite() metodunun məqsədi nədir?
 - Cavab: 
 ## Sual 24
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də delete operatorunun məqsədi nədir?
 - Cavab: 
 ## Sual 25
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Birinci dərəcəli funksiyalar nədir?
+- Cavab:
+- ## Sual 26
+- splice() və slice() metodları arasındakı fərq nədir?
 - Cavab: 
 ## Sual 27
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Massivi obyektə çevirməyin ən asan yolu nədir?
 - Cavab: 
 ## Sual 28
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Massivi necə boşaltmaq olar?
 - Cavab: 
 ## Sual 29
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Bir string-in müəyyən sayda kopyasını necə yaratmaq olar?
 - Cavab: 
 ## Sual 30
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- İki və ya daha çox massivi necə birləşdirmək olar?
 - Cavab: 
 ## Sual 31
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
