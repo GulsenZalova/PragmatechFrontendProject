@@ -156,34 +156,34 @@
 - JavaScript-də "==" və "===" operatorları arasında hansı fərqlər var?
 - Cavab: 
 ## Sual 11
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də typeof operatorundan nə üçün istifadə olunur?
 - Cavab: 
 ## Sual 12
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-i kim yaradıb?
 - Cavab: 
 ## Sual 13
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də primitiv data növləri hansılardır?
 - Cavab:
 ## Sual 14
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də hansı bitwise operatorları mövcuddur?
 - Cavab:  
 ## Sual 15
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də setTimeout() metodunun istifadəsi nədir?
 - Cavab: 
 ## Sual 16
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də setInterval() metodunun istifadəsi nədir?
 - Cavab: 
 ## Sual 17
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- SVG nədir?
 - Cavab: 
 ## Sual 18
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Polyfill nədir?
 - Cavab: 
 ## Sual 19
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JSON nədir və nə üçün lazımdır? 
 - Cavab: 
 ## Sual 20
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JSON-un sintaksis qaydaları hansılardır?
 - Cavab: 
 ## Sual 21
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
