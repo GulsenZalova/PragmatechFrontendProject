@@ -129,175 +129,185 @@
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
 - Cavab: 
 ## Sual 2
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- DOM Traversing nədir? Nümunələr ilə izah edin.
 - Cavab: 
 ## Sual 3
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- DOM Element və DOM Node arasındakı fərq nədir?
 - Cavab: 
 ## Sual 4
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır?
 - Cavab: 
 ## Sual 5
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır?
 - Cavab: 
 ## Sual 6
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS standartlarını kim təyin edir?
 - Cavab: 
 ## Sual 7
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-də vmin və vmax harada istifadə olunur?
 - Cavab: 
 ## Sual 8
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript nədir və necə işləyir? 
 - Cavab: 
 ## Sual 9
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Event Loop nədir?
 - Cavab: 
 ## Sual 10
+<<<<<<< HEAD
 - HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+=======
+- JavaScript-də "==" və "===" operatorları arasında hansı fərqlər var?
+>>>>>>> 87ba231535b366236c757af797a04610fb40f255
 - Cavab: == sadəcə dəyərlərin bərabərliyini yoxladığı halda, === eyni zamanda tiplərin də bərabərliyini yoxlayır
 ## Sual 11
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də typeof operatorundan nə üçün istifadə olunur?
 - Cavab: 
 ## Sual 12
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-i kim yaradıb?
 - Cavab: 
 ## Sual 13
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də primitiv data növləri hansılardır?
 - Cavab:
 ## Sual 14
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də hansı bitwise operatorları mövcuddur?
 - Cavab:  
 ## Sual 15
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də setTimeout() metodunun istifadəsi nədir?
 - Cavab: 
 ## Sual 16
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də setInterval() metodunun istifadəsi nədir?
 - Cavab: 
 ## Sual 17
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- SVG nədir?
 - Cavab: 
 ## Sual 18
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Polyfill nədir?
 - Cavab: 
 ## Sual 19
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JSON nədir və nə üçün lazımdır? 
 - Cavab: 
 ## Sual 20
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JSON-un sintaksis qaydaları hansılardır?
 - Cavab: 
 ## Sual 21
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də isNaN() nədir?
 - Cavab: 
 ## Sual 22
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Veb səhifənin məzmununu necə çap etmək olar?
 - Cavab: 
 ## Sual 23
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də isFinite() metodunun məqsədi nədir?
 - Cavab: 
 ## Sual 24
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də delete operatorunun məqsədi nədir?
 - Cavab: 
 ## Sual 25
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Birinci dərəcəli funksiyalar nədir?
+- Cavab:
+- ## Sual 26
+- splice() və slice() metodları arasındakı fərq nədir?
 - Cavab: 
 ## Sual 27
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Massivi obyektə çevirməyin ən asan yolu nədir?
 - Cavab: 
 ## Sual 28
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Massivi necə boşaltmaq olar?
 - Cavab: 
 ## Sual 29
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Bir string-in müəyyən sayda kopyasını necə yaratmaq olar?
 - Cavab: 
 ## Sual 30
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- İki və ya daha çox massivi necə birləşdirmək olar?
 - Cavab: 
 ## Sual 31
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də void elementlər hansılardır?
 - Cavab: 
 ## Sual 32
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML teqləri və elementləri eyni şeydir?
 - Cavab: 
 ## Sual 33
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də teqlər və atributlar nədir?
 - Cavab: 
 ## Sual 34
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Veb səhifəyə audio və ya videonu necə daxil edə bilərik?
 - Cavab: 
 ## Sual 35
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Inline və block elementlərinə hansı misallar göstərə bilərsiniz?
 - Cavab: 
 ## Sual 36
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- <figure> teqi ilə <img> teqi bir-birindən nə ilə fərqlənir?
 - Cavab: 
 ## Sual 37
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də atributlar nədir?
 - Cavab: 
 ## Sual 38
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- <datalist> teqi ilə <select> teqi arasında hansı fərqlər var?
 - Cavab: 
 ## Sual 39
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML-də semantik elementlər nədir?
 - Cavab: 
 ## Sual 40
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- <meter> teqi ilə <progress> teqi bir-birindən nə ilə fərqlənir?
 - Cavab: 
 ## Sual 41
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- SVG və Canvas HTML5 elementləri arasında hansı fərqlər var?
 - Cavab: 
 ## Sual 42
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML5-də Microdata nədir?
 - Cavab: 
 ## Sual 43
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Formlar üçün HTML5 tərəfindən təmin edilən yeni input növləri hansılardır və nə işə yarayır?
 - Cavab: 
 ## Sual 44
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML5-də Media elementlərindəki yeni teqlər hansılardır? 
 - Cavab: 
+## Sual 45
+- HTML5-də Web Worker-lər nədir? 
+- Cavab:     
 ## Sual 46
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- HTML5-də manifest faylı nədir?
 - Cavab: 
 ## Sual 47
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Bir dəyişən yaddaşda harada saxlanılır?
 - Cavab:
 ## Sual 48
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-də niyə həm tək, həm də cüt dırnaq var?
 - Cavab:
 ## Sual 49
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript-in başqa dillərdən fərqi nədir?
 - Cavab:
 ## Sual 50
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- JavaScript məlumatları yaddaşda necə saxlayır?
 - Cavab:
 ## Sual 51
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Dəyişənlərdən nə üçün istifadə edirik?
 - Cavab:
 ## Sual 52
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Null və undefined arasındakı fərqlər nədir?
 - Cavab:
 ## Sual 53
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Niyə JavaScript kimi bir dil yaratma ehtiyacı hiss ediblər? Bünövrəsi hansı mərhələdən başlayıb və bu günə kimi hansı mərhələlərdən keçib?
 - Cavab:
 ## Sual 54 
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Layihənin bütün brauzerlərə uyğun hala gətirilməsi üçün diqqət olunması gərəkən məqamlar hansılardır?
 - Cavab:
 ## Sual 55
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-dən istifadə etməyin üstünlükləri nələrdir?
 - Cavab:
 ## Sual 56
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-i veb səhifəyə necə daxil etmək olar?
 - Cavab:
 ## Sual 57
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- CSS-də vh/vw (viewport height/ viewport width) nədir?
 - Cavab:
 ## Sual 58
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Reset və normalize CSS arasında hansı fərqlər var?
 - Cavab:
 ## Sual 59
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Veb səhifəni müxtəlif brauzerlərdə yoxlamaq vacibdirmi?
 - Cavab:
 ## Sual 60
-- HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+- Adaptiv dizayn və responsiv dizayn arasında hansı fərqlər var?
 - Cavab:
 
 
