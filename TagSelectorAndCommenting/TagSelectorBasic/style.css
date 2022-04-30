@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #7fc8ff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-container{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+.web-container-movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.web-container-movies-head{
+    font-size: 9px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.web-container-movies-name{
+    margin: auto 0 ;
+}
+.web-container-movies-name p{
+    display: inline-block;
+    margin: 8px 8px 8px 0px;
+    padding: 8px 16px;
+    background-color:#f8fcff ;
+    border-radius: 5px;
+    border: 1px solid #7fc8ff;
+    color: black;
+}
+.web-container-movies-head{
+    text-align: start;
+}
+
+.web-container-movies-serach{
+    background-color: #f2faff;
+    padding: 32px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.web-container-movies-serach input{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #7fc8ff;
+    border-radius: 10px;
+}

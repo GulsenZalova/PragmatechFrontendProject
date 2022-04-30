@@ -4,33 +4,6 @@
     // _radius->yaradılacaq dairələrdən ən böyük dariənin radiusu daxil ediləcək ədəd olaraq
     // _backgroundColor->yaradılacaq dairənin arxafon rəngi daxil ediləcək string olaraq
 
-  //   let container=document.querySelector(".container");
-  //   let box=document.createElement("div");
-  //   container.appendChild(box);
-
-  // function createMultipleCircle(_selector,_circleCount, _radius,_backgroundColor){
-  //   for(let i=0;i <`${_circleCount}`; i++){
-  //       box.className=`${_selector}`;
-  //       let circle=document.createElement("div");
-  //       circle.className=("box");
-  //       box.appendChild(circle);
-  //       circle.style.width=`${_radius*2/i}px`;
-  //       circle.style.height=`${_radius*2/i}px`;
-  //       circle.style.backgroundColor=`${_backgroundColor}`;
-  //       circle.style.borderRadius="50%";
-  //       circle.style.border='1px solid black';
-  //       box.style.display="flex"
-  //       box.style.justifyContent="center";
-  //       box.style.alignItems="center";
-  //       box.style.position="relative";
-  //       circle.style.position= "absolute";
-  //   }
-
-  // }
-  // createMultipleCircle(".container", 4, 300, "rgb(220, 227, 230)")
- 
-
-
 let container=document.querySelector(".container");
 let box=document.createElement("div");
 container.appendChild(box)

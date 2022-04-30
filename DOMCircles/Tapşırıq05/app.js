@@ -5,6 +5,3 @@
     // yaradılan toplar random olaraq görüntüsü verilən bilyard masası üzərində random yerlərdə yerləşməlidir.
   
 
-//   function createPoolTable() {
-
-//   }
