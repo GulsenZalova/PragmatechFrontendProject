@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-sign up form</title>
+    <!-- Google Fonts Lİnk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&family=Oswald:wght@300;400;500;700&family=Poppins:ital,wght@0,100;1,100;1,200;1,300&family=Roboto+Serif:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+     <div class="forms">
+         <!-- Forms Login -->
+         <div class="forms-login" id="login">
+             <form action="#">
+                <h3>Login Here</h3>
+                <div class="forms-input">
+                <label for="mail">Username</label> <br>
+                <input type="text" id="mail"  class="input" name="mail "placeholder="Email" required>
+                </div>
+               <div class="forms-input">
+                <label for="password">Password</label> <br>
+                <div class="forms-input-pass">
+                    <input type="password" id="password"  name="password" class="input" placeholder="Password" required>
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+               </div>
+                <div class="forms-check">
+                    <div class="forms-check-box">
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                         <label for="checkbox">Remember Me</label>
+                    </div>
+                    <div class="forms-check-link">
+                        <a class="link" href="#">Forgot Password?</a>
+                    </div>
+                </div>
+                <div class="forms-btn">
+                    <button class="btn">Log In</button>
+                </div>
+                <div class="forms-link">
+                    <button class="btn1">Google</button>
+                    <button class="btn1 btn-facebook">Facebook</button>
+                </div>
+                <div class="forms-sign">
+                    <a class="link" href="#">Sign Up</a>
+                </div>
+             </form>
+         </div>
+        <!-- Sign up -->
+         <!-- <div class="forms-login" id="sign-up">
+            <form action="#">
+               <h3>Login Here</h3>
+               <div class="forms-input">
+               <label for="mail">Full Name</label> <br>
+               <input type="text" id="mail" class="input"  name="mail "placeholder="Full name" required>
+               </div>
+               <div class="forms-input">
+                <label for="mail">Email</label> <br>
+                <input type="text" id="mail" class="input" name="mail "placeholder="Email" required>
+                </div>
+              <div class="forms-input">
+               <label for="password">Password</label> <br>
+                   <input type="password" id="password" class="input" name="password" class="pass" placeholder="Password" required>
+              </div>
+              <div class="forms-input">
+                <label for="password">Confirm Password</label> <br>
+                <div class="forms-input-pass">
+                    <input type="password" id="password" class="input" name="password" class="pass" placeholder="Confirm Password" required>
+                </div>
+               </div>
+               <div class="forms-btn">
+                   <button class="btn">Log IN</button>
+               </div>
+               <div class="forms-sign">
+                   <a class="link" href="#">Login</a>
+               </div>
+            </form>
+        </div> -->
+        <!-- Forgot Password  -->
+        <!-- <div class="forms-login" id="forgot">
+            <form action="#">
+               <h3>Forgot Password</h3>
+               <div class="forms-input">
+               <label for="mail">Email</label> <br>
+               <input type="text" id="mail" class="input"  name="mail "placeholder="Email" required>
+               </div>
+            
+               <div class="forms-btn">
+                   <button class="btn">Send Email</button>
+               </div>
+              
+               <div class="forms-sign">
+                   <a class="link" href="#login">Log in</a>
+               </div>
+            </form>
+        </div> -->
+     </div>
+    </div>
+</body>
+</html>
